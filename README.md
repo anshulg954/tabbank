@@ -11,25 +11,22 @@ To evaluate model performance on common finance tasks such as banking, credit mo
 - **#Views:** 178848 (as of September 29, 2025)
 - **#Citations:** 63 (as of September 29, 2025)
 - **Additional Description:**  Provided by Prof. Hofmann at 10.24432/C5NC77
-- **Features:**
+- **Features:**<br>
 `Attribute 1`:  (qualitative)      
  Status of existing checking account
-             A11 :      ... <    0 DM
+           A11 :      ... <    0 DM
            A12 : 0 <= ... <  200 DM
            A13 :      ... >= 200 DM / salary assignments for at least 1 year
-               A14 : no checking account
-</br>
+           A14 : no checking account</br>
 `Attribute 2`:  (numerical)
-          Duration in month
-</br>
+          Duration in month</br>
 `Attribute 3`:  (qualitative)
           Credit history
           A30 : no credits taken/ all credits paid back duly
               A31 : all credits at this bank paid back duly
           A32 : existing credits paid back duly till now
               A33 : delay in paying off in the past
-          A34 : critical account/  other credits existing (not at this bank)
-</br>
+          A34 : critical account/  other credits existing (not at this bank)</br>
 `Attribute 4`:  (qualitative)
           Purpose
           A40 : car (new)
@@ -42,97 +39,80 @@ To evaluate model performance on common finance tasks such as banking, credit mo
           A47 : (vacation - does not exist?)
           A48 : retraining
           A49 : business
-          A410 : others
-</br>
+          A410 : others</br>
 `Attribute 5`:  (numerical)
-          Credit amount
-</br>
+          Credit amount</br>
 `Attibute 6`:  (qualitative)
           Savings account/bonds
           A61 :          ... <  100 DM
           A62 :   100 <= ... <  500 DM
           A63 :   500 <= ... < 1000 DM
           A64 :          .. >= 1000 DM
-              A65 :   unknown/ no savings account
-</br>
+              A65 :   unknown/ no savings account</br>
 `Attribute 7`:  (qualitative)
           Present employment since
           A71 : unemployed
           A72 :       ... < 1 year
           A73 : 1  <= ... < 4 years  
           A74 : 4  <= ... < 7 years
-          A75 :       .. >= 7 years
-</br>
+          A75 :       .. >= 7 years</br>
 `Attribute 8`:  (numerical)
-          Installment rate in percentage of disposable income
-</br>
+          Installment rate in percentage of disposable income</br>
 `Attribute 9`:  (qualitative)
           Personal status and sex
           A91 : male   : divorced/separated
           A92 : female : divorced/separated/married
               A93 : male   : single
           A94 : male   : married/widowed
-          A95 : female : single
-</br>
+          A95 : female : single</br>
 `Attribute 10`: (qualitative)
           Other debtors / guarantors
           A101 : none
           A102 : co-applicant
-          A103 : guarantor
-</br>
+          A103 : guarantor</br>
 `Attribute 11`: (numerical)
-          Present residence since
-</br>
+          Present residence since</br>
 `Attribute 12`: (qualitative)
           Property
           A121 : real estate
           A122 : if not A121 : building society savings agreement/ life insurance
               A123 : if not A121/A122 : car or other, not in attribute 6
-          A124 : unknown / no property
-</br>
+          A124 : unknown / no property</br>
 `Attribute 13`: (numerical)
-          Age in years
-</br>
+          Age in years</br>
 `Attribute 14`: (qualitative)
           Other installment plans 
           A141 : bank
           A142 : stores
-          A143 : none
-</br>
+          A143 : none</br>
 `Attribute 15`: (qualitative)
           Housing
           A151 : rent
           A152 : own
-          A153 : for free
-</br>
+          A153 : for free</br>
 `Attribute 16`: (numerical)
-              Number of existing credits at this bank
-</br>
+              Number of existing credits at this bank</br>
 `Attribute 17`: (qualitative)
           Job
           A171 : unemployed/ unskilled  - non-resident
           A172 : unskilled - resident
           A173 : skilled employee / official
           A174 : management/ self-employed/
-             highly qualified employee/ officer
-</br>
+             highly qualified employee/ officer</br>
 `Attribute 18`: (numerical)
-          Number of people being liable to provide maintenance for
-</br>
+          Number of people being liable to provide maintenance for</br>
 `Attribute 19`: (qualitative)
           Telephone
           A191 : none
-          A192 : yes, registered under the customers name
-</br>
+          A192 : yes, registered under the customers name</br>
 `Attribute 20`: (qualitative)
           foreign worker
           A201 : yes
-          A202 : no
-</br>
+          A202 : no</br>
 `class (Target)`: (numerical)
           good or bad
           1 : Good
-          2 : Bad
+          2 : Bad</br>
 - **Model Performance:** 
 ![Model Performance](./results/model_comparison1_german-credit.png)
 
