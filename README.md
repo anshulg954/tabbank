@@ -114,7 +114,7 @@ To evaluate model performance on common finance tasks such as banking, credit mo
           1 : Good
           2 : Bad</br>
 - **Model Performance:** 
-![Model Performance](./results/model_comparison1_german-credit.png)
+![Model Performance](./results/plot_1_german_credit.png)
 
 ## 2. `bank-marketing`
 - **Description:**  The classification goal is to predict if the client will subscribe a term deposit (variable y).
@@ -146,7 +146,7 @@ To evaluate model performance on common finance tasks such as banking, credit mo
    `poutcome`: outcome of the previous marketing campaign (categorical: "unknown","other","failure","success")<br>
    `y (Target)` - has the client subscribed a term deposit? (binary: "yes","no")<br>
 - **Model Performance:** 
-![Model Performance](./results/model_comparison1_bank-marketing.png)
+![Model Performance](./results/plot_2_bank_marketing.png)
 
 ## 3. `credit-approval`
 - **Description:** This data concerns credit card applications; good mix of attributes
@@ -176,7 +176,7 @@ To evaluate model performance on common finance tasks such as banking, credit mo
 `A15`:	continuous.<br>
 `A16 (Target)`: +,- (class attribute)<br>
 - **Model Performance:** 
-![Model Performance](./results/model_comparison1_credit-approval.png)
+![Model Performance](./results/plot_3_credit_approval.png)
 
 ## 4. `australian-credit`
 - **Description:** This file concerns australian credit card applications. This database exists elsewhere in the repository (Credit Screening Database) in a slightly different form
@@ -206,7 +206,7 @@ There are 6 numerical and 8 categorical attributes.  The labels have been change
 `A14`:  continuous.<br>
 `A15 (Target)`:   1,2  class attribute (formerly: +,-) <br>
 - **Model Performance:** 
-![Model Performance](./results/model_comparison1_australian-credit.png)
+![Model Performance](./results/plot_4_australian_credit.png)
 
 ## 5. `default-credit-card`
 - **Description:** This research aimed at the case of customers' default payments in Taiwan and compares the predictive accuracy of probability of default among six data mining methods.
@@ -230,9 +230,9 @@ This research employed a binary variable, default payment (Yes = 1, No = 0), as 
 `X18-X23`: Amount of previous payment (NT dollar). X18 = amount paid in September, 2005; X19 = amount paid in August, 2005; . . .;X23 = amount paid in April, 2005.<br>
 `Y (Target)`: default payment next month<br>
 - **Model Performance:** 
-![Model Performance](./results/model_comparison1_default-credit-card.png)
+![Model Performance](./results/plot_5_default_credit_card.png)
 
-## 6. `credit-card-approval`
+<!-- ## 6. `credit-card-approval`
 - **Description:** application_record.csv contains appliers personal information, which you could use as features for predicting credit_record.csv records users' behaviors of credit card.
 - **Source:** <a href="https://www.kaggle.com/datasets/rikdifos/credit-card-approval-prediction/data">Kaggle </a>
 - **Files:** ![application_record.csv](./datasets/application_record.csv) , ![credit_record.csv](./datasets/credit_record.csv)
@@ -271,9 +271,9 @@ This research employed a binary variable, default payment (Yes = 1, No = 0), as 
 `MONTHS_BALANCE`	Record month	The month of the extracted data is the starting point, backwards, 0 is the current month, -1 is the previous month, and so on<br>
 `STATUS (Target)`	Status	0: 1-29 days past due 1: 30-59 days past due 2: 60-89 days overdue 3: 90-119 days overdue 4: 120-149 days overdue 5: Overdue or bad debts, write-offs for more than 150 days C: paid off that month X: No loan for the month
 - **Model Performance:** 
-![Model Performance](./results/NA)
+![Model Performance](./results/NA) -->
 
-## 7. `loan-modelling`
+## 6. `loan-modelling`
 - **Description:** The data include customer demographic information (age, income, etc.), the customer's relationship with the bank (mortgage, securities account, etc.), and the customer response to the last personal loan campaign (Personal Loan). Among these 5000 customers, only 480 (= 9.6%) accepted the personal loan that was offered to them in the earlier campaign.
 - **Source:** <a href="https://www.kaggle.com/datasets/teertha/personal-loan-modeling">Kaggle</a>
 - **File:**  ![Bank_Personal_Loan_Modelling.csv](./datasets/Bank_Personal_Loan_Modelling.csv)
@@ -299,9 +299,9 @@ This research employed a binary variable, default payment (Yes = 1, No = 0), as 
 `CreditCard`: Does the customer use a credit card issued by any other Bank (excluding All life Bank)?<br>
 `Personal_Loan (Target)`: Did this customer accept the personal loan offered in the last campaign?<br>
 - **Model Performance:** 
-![Model Performance](./results/NA)
+![Model Performance](./results/plot_6_loan_modelling.png)
 
-## 8. `credit-risk`
+## 7. `credit-risk`
 - **Description:** This dataset contains columns simulating credit bureau data
 - **Source:** <a href="https://www.kaggle.com/datasets/laotse/credit-risk-dataset/">Kaggle</a>
 - **File:**  ![credit_risk_dataset.csv](./datasets/credit_risk_dataset.csv)
@@ -340,9 +340,9 @@ This research employed a binary variable, default payment (Yes = 1, No = 0), as 
     - 0: Non-default - The borrower successfully repaid the loan as agreed, and there was no default.
     - 1: Default - The borrower failed to repay the loan according to the agreed-upon terms and defaulted on the loan.<br>
 - **Model Performance:** 
-![Model Performance](./results/NA)
+![Model Performance](./results/plot_7_credit_risk.png)
 
-## 9. `credit-score`
+<!-- ## 9. `credit-score`
 - **Description:**  Given a person’s credit-related information, build a machine learning model that can classify the credit score
 - **Source:** <a href="https://www.kaggle.com/datasets/parisrohan/credit-score-classification">Kaggle</a>
 - **File:**  ![credit_score.csv](./datasets/credit_score.csv)
@@ -382,9 +382,9 @@ This research employed a binary variable, default payment (Yes = 1, No = 0), as 
 `monthly_balance`	The remaining balance in the customer’s account at the end of each month.<br>
 `credit_score (Target)`	The customer’s credit score (target variable: "Good," "Poor," "Standard").<br>
 - **Model Performance:** 
-![Model Performance](./results/NA)
+![Model Performance](./results/NA) -->
 
-## 10. `credit-fraud`
+<!-- ## 10. `credit-fraud`
 - **Description:** 
 - **Source:** <a href="https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud/data">Kaggle</a>
 - **File:**  ![creditcardfraud.csv](./datasets/creditcardfraud.csv)
@@ -397,9 +397,9 @@ This research employed a binary variable, default payment (Yes = 1, No = 0), as 
 - **Features:** <br>
 `Time`	`V1`	`V2`	`V3`	`V4`	`V5`	`V6`	`V7`	`V8`	`V9`	`V10`	`V11`	`V12`	`V13`	`V14`	`V15`	`V16`	`V17`	`V18`	`V19`	`V20`	`V21`	`V22`	`V23`	`V24`	`V25`	`V26`	`V27`	`V28`	`Amount`	`Class (Target)`
 - **Model Performance:** 
-![Model Performance](./results/NA)
+![Model Performance](./results/NA) -->
 
-## 11. `hmeq`
+## 8. `hmeq`
 - **Description:** The Home Equity dataset (HMEQ) contains baseline and loan performance information for 5,960 recent home equity loans. The target (BAD) is a binary variable indicating whether an applicant eventually defaulted or was seriously delinquent. This adverse outcome occurred in 1,189 cases (20%). For each applicant, 12 input variables were recorded.
 - **Source:** <a href="https://www.kaggle.com/datasets/ajay1735/hmeq-data/">Kaggle</a>
 - **File:**  ![hmeq.csv](./datasets/hmeq.csv)
@@ -425,9 +425,9 @@ The consumer credit department of a bank wants to automate the decisionmaking pr
 `DEBTINC` Debt-to-income ratio<br>
 `BAD (Target)` 1 = client defaulted on loan 0 = loan repaid<br>
 - **Model Performance:** 
-![Model Performance](./results/NA)
+![Model Performance](./results/plot_8_hmeq.png)
 
-## 12. `loan-approval`
+## 9. `loan-approval`
 - **Description:** Loan Approval Dataset used for Prediction Model 
 - **Source:** <a href="https://www.kaggle.com/datasets/architsharma01/loan-approval-prediction-dataset">Kaggle</a>
 - **File:**  ![loan_approval_dataset.csv](./datasets/loan_approval_dataset.csv)
@@ -452,9 +452,9 @@ The consumer credit department of a bank wants to automate the decisionmaking pr
 `bank_asset_value`: Amount of Bank Assests <br>
 `loan_status (Target)`: Loan Approval Status (Approved/Rejected)<br>
 - **Model Performance:** 
-![Model Performance](./results/NA)
+![Model Performance](./results/plot_9_loan_approval.png)
 
-## 13. `loan-data`
+## 10. `loan-repay`
 - **Description:** Use the lending data from 2007-2010 to classify and predict whether or not the borrower paid back their loan in full
 - **Source:** <a href="https://www.kaggle.com/datasets/itssuru/loan-data">Kaggle</a>
 - **File:**  ![loan_data.csv](./datasets/loan_data.csv)
@@ -480,7 +480,7 @@ The consumer credit department of a bank wants to automate the decisionmaking pr
 `pub.rec`: The count of derogatory public records like bankruptcy filings or tax liens, which can significantly impact creditworthiness.<br>
 `not.fully.paid (Target)`: The binary target variable indicating whether the loan was not fully repaid (1) or was (0). Our predictive modeling efforts focus on this outcome.
 - **Model Performance:** 
-![Model Performance](./results/NA)
+![Model Performance](./results/plot_10_loan_repay.png)
 
 ## 14. `dummy`
 - **Description:** 
