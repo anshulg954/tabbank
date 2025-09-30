@@ -489,6 +489,31 @@ The consumer credit department of a bank wants to automate the decisionmaking pr
 - **Model Performance:** 
 ![Model Performance](./results/plot_10_loan_repay.png)
 
+## 11. `bank-churn`
+- **Description:** This dataset is for ABC Multistate bank and the aim is to Predict the Customer Churn for ABC Bank.
+- **Source:** <a href="https://www.kaggle.com/datasets/gauravtopre/bank-customer-churn-dataset">Kaggle</a>
+- **#Rows:** 10000
+- **#Features:** 12
+- **Target:** `churn`
+- **#Views:**  169000(as of Month x, 2025)
+- **#Downloads:**  32800(as of Month x, 2025)
+- **Additional Description:** NA
+- **Features:** <br>
+`Customer ID `: Unique ID given to identify a particular customer.<br>
+`Credit Score`: It is the score which determines the creditworthiness of a customer.<br>
+`Country`: The country where customer lives.<br>
+`Gender`: The Sex of customer.<br>
+`Age`: The age of customer.<br>
+`Tenure`: Number of years the customer has Bank Account in that Bank.<br>
+`Balance`: Amount of money present in customer's bank.<br>
+`Products Number`: Number of Products from that Bank.<br>
+`Credit Card`: Does the customer own a credit card of that Bank.<br>
+`Active Member`: Whether the customer is an active member of that Bank.<br>
+`Estimated Salary`: Total Income of the Customer.<br>
+`Churn (Target)`: Churn (Loss of existing customers) of the Bank. 1 if the client has left the bank during some period or 0 if he/she has not.
+- **Model Performance:** 
+![Model Performance](./results/plot_11_bank_churn.png)
+
 ## id. `dataset_name`
 - **Description:** 
 - **Source:** <a href=""></a>
