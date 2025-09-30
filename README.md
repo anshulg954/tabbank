@@ -2,6 +2,13 @@
 
 To evaluate model performance on common finance tasks such as banking, credit modeling, loan approval, etc., we benchmarked several tabular datasets. This section details the datasets used in our analysis, including a summary of their metadata and the resulting performance metrics.
 
+### Interactive Notebook Tutorial
+> [!TIP]
+>
+> Dive right in with our interactive Colab notebook! It's the best way to get a hands-on feel for TabPFN, walking you through installation, classification, and regression examples on benchmarking tabular data.
+>
+> [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1K7tRvBsb8ZOSXY4zwiGH5C-MxCJVvrqu?usp=sharing)
+
 ## 1. `german-credit`
 - **Description:** This dataset classifies people described by a set of attributes as good or bad credit risks
 - **Source:** <a href="https://archive.ics.uci.edu/dataset/144/statlog+german+credit+data">UCIMLR</a>
@@ -482,7 +489,7 @@ The consumer credit department of a bank wants to automate the decisionmaking pr
 - **Model Performance:** 
 ![Model Performance](./results/plot_10_loan_repay.png)
 
-## 14. `dummy`
+## id. `dataset_name`
 - **Description:** 
 - **Source:** <a href=""></a>
 - **#Rows:** 
