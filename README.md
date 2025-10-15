@@ -13,10 +13,10 @@ To evaluate model performance on common finance tasks such as banking, credit mo
 For datasets and additional information refer to [Dataset Documentation](./datasets/1_Documentation.md)
 
 ## Results 
-We did the experiments for 10 splits using KFolds strategy on 12 classification and 17 regression datasets, for which the normalized results can be found in the [/results](./results/) directory. Few intersting insights are shown below:
-![Classification Results](results/classification_results/mean_normalized_roc_auc_bar.png)
-![Regression Results](results/regression_results/normalized_r2_per_dataset_bar.png)<br>
-
-[Scatter Plot Catboost vs TabPFN Comparison for Real Estate and Asset Management (Regression)](results/regression_results/regression_benchmark_scatter_CatBoost_vs_TabPFNReg_r2.pdf)<br>
-[Bar Plot Catboost vs TabPFN Comparison for Real Estate and Asset Management (Regression)](results/regression_results/regression_benchmark_main_results_barplot_r2.pdf)<br>
+We did the experiments for 10 splits using KFolds strategy on 12 classification and 17 regression datasets, for which the normalized results can be found in the [/results](./results/) directory. Few intersting insights can be found using the links below:
+<!-- ![Classification Results](results/classification_results/mean_normalized_roc_auc_bar.png) -->
+<!-- ![Regression Results](results/regression_results/normalized_r2_per_dataset_bar.png)<br> -->
+[Normalized Bar Plot Mean ROC-AUC for Banking, Credit, Loan Applications (Classification)](results/classification_results/mean_normalized_roc_auc_bar.png)<br>
+[Normalized Scatter Plot Catboost vs TabPFN Comparison for Real Estate and Asset Management (Regression)](results/regression_results/regression_benchmark_scatter_CatBoost_vs_TabPFNReg_r2.pdf)<br>
+[Normalized Bar Plot TabPFN Comparison for Real Estate and Asset Management (Regression)](results/regression_results/regression_benchmark_main_results_barplot_r2.pdf)<br>
 **Contact:** For questions or contributions, reach out to me @ anshulg2743@gmail.com.
