@@ -1,0 +1,201 @@
+customer_id,customer_name,customer_email,customer_phone,customer_join_date,product_id,product_type,transaction_id,transaction_date,transaction_amount,transaction_type,retention_period_months,is_churned,churn_date,lifetime_value,currency
+CUST00001,Jessica Wu,jessica.wu.001@example.com,+1-202-555-0181,2019-03-15,PROD-A-001,savings_account,TXN-100001,2023-04-11T09:39:00,2200.35,deposit,51,false,,6800,USD
+CUST00002,Omar Castillo,omar.castillo.002@example.com,+44 7911 123456,2021-07-03,PROD-L-002,loan,TXN-100002,2023-06-12T15:40:24,15840,payment,34,true,2023-11-20,18000,USD
+CUST00003,Priya Menon,priya.menon.003@example.com,+91 9812345678,2020-02-17,PROD-CC-003,credit_card,TXN-100003,2022-12-09T11:22:54,346.75,fee,40,false,,4200.5,INR
+CUST00004,David Lee,david.lee.004@example.com,,2017-08-22,PROD-I-004,investment,TXN-100004,2023-03-15T13:15:00,9450,deposit,75,false,,35900,USD
+CUST00005,Sofia Rossi,sofia.rossi.005@example.com,+39 347 1234567,2022-05-30,PROD-IN-005,insurance,TXN-100005,2023-07-21T10:36:00,210,payment,13,false,,1230,EUR
+CUST00006,Michael O'Brien,michael.obrien.006@example.com,+1-303-555-0192,2020-10-07,PROD-O-006,other,TXN-100006,2023-01-19T16:29:00,73.99,fee,32,false,,540,USD
+CUST00007,Fatima El-Sayed,fatima.elsayed.007@example.com,+971 50 123 4567,2021-03-11,PROD-CC-007,credit_card,TXN-100007,2023-09-26T18:42:00,1276.62,withdrawal,30,true,2023-10-02,3580,AED
+CUST00008,Lucas Schmidt,lucas.schmidt.008@example.com,+49 151 12345678,2022-12-01,PROD-SA-008,savings_account,TXN-100008,2023-12-21T12:03:00,300,deposit,12,false,,1450,EUR
+CUST00009,Emily Chen,emily.chen.009@example.com,+65 8123 4567,2018-04-25,PROD-I-009,investment,TXN-100009,2023-08-02T09:17:00,5200,deposit,63,false,,22000,SGD
+CUST00010,Alejandro Torres,alejandro.torres.010@example.com,,2019-09-12,PROD-L-010,loan,TXN-100010,2023-06-23T13:20:00,9200,payment,48,false,,12000,USD
+CUST00011,Nina Johansson,nina.johansson.011@example.com,+46 70 123 4567,2021-01-20,PROD-IN-011,insurance,TXN-100011,2023-02-14T10:00:00,115,payment,29,false,,1110,SEK
+CUST00012,Jamal Brown,jamal.brown.012@example.com,+1 718-555-0127,2020-05-02,PROD-CC-012,credit_card,TXN-100012,2023-10-10T14:13:00,35,fee,41,false,,2075,USD
+CUST00013,Chloe Martin,chloe.martin.013@example.com,+33 6 12 34 56 78,2022-03-15,PROD-SA-013,savings_account,TXN-100013,2023-05-17T08:30:00,750,deposit,14,false,,2850,EUR
+CUST00014,Rajiv Patel,rajiv.patel.014@example.com,+91 9821456789,2020-07-19,PROD-L-014,loan,TXN-100014,2023-01-25T17:00:00,4300,payment,38,false,,10500,INR
+CUST00015,Anna Kim,anna.kim.015@example.com,+82 10-1234-5678,2018-12-09,PROD-I-015,investment,TXN-100015,2023-05-01T15:00:00,3900,deposit,55,true,2023-09-10,21500,KRW
+CUST00016,William Clark,william.clark.016@example.com,+1-212-555-0116,2021-11-03,PROD-O-016,other,TXN-100016,2023-09-17T09:07:00,110,fee,23,false,,630,USD
+CUST00017,Gabriella Silva,gabriella.silva.017@example.com,+55 21 91234 5678,2019-06-28,PROD-IN-017,insurance,TXN-100017,2022-11-08T13:45:00,98,payment,48,false,,1020,BRL
+CUST00018,Peter Müller,peter.mueller.018@example.com,+49 176 12345678,2021-06-10,PROD-SA-018,savings_account,TXN-100018,2023-02-23T11:45:00,1400,deposit,21,true,2023-11-10,2100,EUR
+CUST00019,Chen Wei,chen.wei.019@example.com,+86 13912345678,2020-01-29,PROD-CC-019,credit_card,TXN-100019,2023-07-08T19:03:00,520,withdrawal,44,false,,2700,CNY
+CUST00020,Salma Hussein,salma.hussein.020@example.com,+20 100 1234567,2019-11-11,PROD-L-020,loan,TXN-100020,2023-03-22T10:45:00,6700,payment,46,true,2023-12-05,8900,EGP
+CUST00021,Elena Petrova,elena.petrova.021@example.com,+7 495 123-45-67,2020-03-05,PROD-I-021,investment,TXN-100021,2023-06-09T15:08:00,7200,deposit,38,false,,18500,RUB
+CUST00022,Thomas Hall,thomas.hall.022@example.com,+1 646-555-0132,2022-07-23,PROD-O-022,other,TXN-100022,2023-11-29T12:23:00,95,fee,16,false,,380,USD
+CUST00023,Maria Garcia,maria.garcia.023@example.com,+34 612 34 56 78,2021-04-14,PROD-IN-023,insurance,TXN-100023,2022-12-07T09:21:00,80,payment,26,false,,1150,EUR
+CUST00024,James Evans,james.evans.024@example.com,+1-415-555-0174,2020-09-20,PROD-SA-024,savings_account,TXN-100024,2023-02-10T08:15:00,1300,deposit,37,false,,5200,USD
+CUST00025,Isabelle Moreau,isabelle.moreau.025@example.com,+33 1 23 45 67 89,2018-05-11,PROD-L-025,loan,TXN-100025,2023-03-13T16:10:00,6400,payment,62,false,,9900,EUR
+CUST00026,Mateusz Nowak,mateusz.nowak.026@example.com,+48 501 234 567,2021-05-21,PROD-I-026,investment,TXN-100026,2023-11-07T13:01:00,3800,deposit,23,false,,8700,PLN
+CUST00027,Grace Liu,grace.liu.027@example.com,,2017-07-14,PROD-O-027,other,TXN-100027,2023-05-29T10:22:00,56,fee,71,false,,360,USD
+CUST00028,Aleksei Ivanov,aleksei.ivanov.028@example.com,+7 916 123-45-67,2022-01-08,PROD-IN-028,insurance,TXN-100028,2023-06-10T08:40:00,88,payment,20,false,,880,RUB
+CUST00029,Linda Okafor,linda.okafor.029@example.com,+234 803 123 4567,2021-09-21,PROD-SA-029,savings_account,TXN-100029,2023-09-12T17:14:00,800,deposit,25,false,,1450,NGN
+CUST00030,Ivan Petrov,ivan.petrov.030@example.com,+7 921 123-45-67,2018-09-06,PROD-L-030,loan,TXN-100030,2023-04-02T13:50:00,10100,payment,57,false,,13800,RUB
+CUST00031,Mei Ling,mei.ling.031@example.com,+852 9123 4567,2020-08-15,PROD-I-031,investment,TXN-100031,2023-12-02T09:45:00,6400,deposit,40,false,,17400,HKD
+CUST00032,Samuel Johnson,samuel.johnson.032@example.com,+1-213-555-0132,2022-04-03,PROD-O-032,other,TXN-100032,2023-08-24T14:15:00,70,fee,19,false,,310,USD
+CUST00033,Yuki Tanaka,yuki.tanaka.033@example.com,+81 90-1234-5678,2019-10-15,PROD-IN-033,insurance,TXN-100033,2023-06-18T11:23:00,150,payment,47,false,,1200,JPY
+CUST00034,Ethan Scott,ethan.scott.034@example.com,+1-646-555-0174,2021-12-12,PROD-SA-034,savings_account,TXN-100034,2023-05-19T17:38:00,250,deposit,18,true,2023-09-20,980,USD
+CUST00035,Martina Bianchi,martina.bianchi.035@example.com,+39 347 9876543,2017-04-22,PROD-L-035,loan,TXN-100035,2023-03-11T11:48:00,12500,payment,81,false,,17000,EUR
+CUST00036,Diego Rivera,diego.rivera.036@example.com,+52 55 1234 5678,2022-06-07,PROD-I-036,investment,TXN-100036,2023-11-03T10:56:00,2300,deposit,17,false,,4700,MXN
+CUST00037,Abigail Johnson,abigail.johnson.037@example.com,+1 718-555-0137,2021-08-29,PROD-O-037,other,TXN-100037,2023-06-27T15:15:00,80,fee,28,false,,310,USD
+CUST00038,Manuela Pereira,manuela.pereira.038@example.com,+351 912 345 678,2018-11-24,PROD-IN-038,insurance,TXN-100038,2023-04-20T12:22:00,95,payment,59,true,2023-10-15,1550,EUR
+CUST00039,Liam Murphy,liam.murphy.039@example.com,+353 86 123 4567,2021-02-13,PROD-SA-039,savings_account,TXN-100039,2023-07-16T13:22:00,1100,deposit,28,false,,3200,EUR
+CUST00040,Fatou Diop,fatou.diop.040@example.com,+221 77 123 45 67,2020-04-02,PROD-L-040,loan,TXN-100040,2023-05-09T15:36:00,7100,payment,38,false,,9500,XOF
+CUST00041,Lars Andersen,lars.andersen.041@example.com,+45 21 23 45 67,2022-10-11,PROD-I-041,investment,TXN-100041,2023-11-28T09:31:00,2840,deposit,13,false,,3800,DKK
+CUST00042,Amira Hassan,amira.hassan.042@example.com,+971 52 123 4567,2019-06-30,PROD-O-042,other,TXN-100042,2023-03-18T16:02:00,120,fee,52,false,,850,AED
+CUST00043,Sebastian Fischer,sebastian.fischer.043@example.com,+49 170 1234567,2021-07-10,PROD-IN-043,insurance,TXN-100043,2022-12-19T12:44:00,130,payment,29,false,,1100,EUR
+CUST00044,Helen Murphy,helen.murphy.044@example.com,+353 86 987 6543,2018-03-29,PROD-SA-044,savings_account,TXN-100044,2023-01-17T09:42:00,1600,deposit,69,false,,5900,EUR
+CUST00045,Nour Khalil,nour.khalil.045@example.com,+20 102 3456789,2022-08-19,PROD-L-045,loan,TXN-100045,2023-07-25T11:15:00,3900,payment,14,false,,4100,EGP
+CUST00046,Olivia Smith,olivia.smith.046@example.com,+1-303-555-0123,2019-05-17,PROD-I-046,investment,TXN-100046,2023-02-24T14:30:00,4200,deposit,46,false,,9400,USD
+CUST00047,Lucas Moreira,lucas.moreira.047@example.com,+55 11 91234 5678,2020-06-30,PROD-O-047,other,TXN-100047,2023-08-19T15:36:00,85,fee,39,false,,320,BRL
+CUST00048,Clara Müller,clara.mueller.048@example.com,+49 152 1234567,2021-11-18,PROD-IN-048,insurance,TXN-100048,2023-10-30T16:25:00,120,payment,24,false,,1000,EUR
+CUST00049,Henry White,henry.white.049@example.com,+1-415-555-0122,2017-03-05,PROD-SA-049,savings_account,TXN-100049,2023-07-11T10:27:00,2500,deposit,74,false,,9700,USD
+CUST00050,Laura Svensson,laura.svensson.050@example.com,+46 70 987 6543,2018-06-14,PROD-L-050,loan,TXN-100050,2023-05-31T13:12:00,11200,payment,60,false,,14900,SEK
+CUST0201,Rafael Dominguez,rafael.dominguez@finmail.com,+34 612-990-541,2022-03-19,PROD3012,investment,TXN2001,2023-11-07T13:45:23,4800.5,deposit,20,false,,9650.75,EUR
+CUST0202,Linda Zhou,linda.zhou@bankdirect.cn,+86 139-2234-9987,2021-06-11,PROD1045,savings_account,TXN2002,2024-01-18T10:21:08,1200,deposit,34,true,2024-04-27,2300,CNY
+CUST0203,Martin O'Connor,martin.oconnor@emerald.ie,+353 83 482 9201,2021-09-04,PROD4038,loan,TXN2003,2022-12-14T09:30:00,7250.25,payment,24,false,,13200,EUR
+CUST0204,Jin Woo Park,jwpark@seoulbank.kr,+82 10-3321-4457,2020-02-28,PROD2077,credit_card,TXN2004,2023-05-23T17:59:43,315,fee,48,false,,8700,KRW
+CUST0205,Isabella Rossi,isabella.rossi@bancait.it,+39 338-177-9921,2023-01-05,PROD1009,insurance,TXN2005,2024-03-11T12:18:31,230.95,payment,15,true,2024-05-12,980,EUR
+CUST0206,Maya Patel,maya.patel@indifin.in,+91 983-109-5521,2022-07-21,PROD4052,loan,TXN2006,2023-09-16T14:03:54,18020,withdrawal,19,false,,23500,INR
+CUST0207,Lucas Henry,lucash@globalbank.ca,+1 416-555-9087,2022-10-18,PROD2077,credit_card,TXN2007,2023-12-30T15:40:27,2145.99,payment,17,false,,5400,CAD
+CUST0208,Ava Müller,ava.mueller@spardabank.de,+49 152 9347 2011,2021-05-13,PROD3012,investment,TXN2008,2022-11-09T11:22:16,12750,deposit,29,false,,18700,EUR
+CUST0209,Daniel Evans,daniel.evans@finmail.co.uk,+44 7721 808 112,2020-12-01,PROD1045,savings_account,TXN2009,2024-03-07T13:13:20,150,interest,39,true,2024-04-18,3200,GBP
+CUST0210,Elena Petrova,elena.petrova@finrus.ru,+7 903 882 7721,2021-07-20,PROD1009,insurance,TXN2010,2023-10-27T10:17:02,589.62,deposit,33,false,,2400,RUB
+CUST0211,Mateo Garcia,mateo.garcia@finanz.es,+34 603-882-120,2022-05-17,PROD1045,savings_account,TXN2011,2023-04-28T08:29:31,1120,deposit,22,false,,1980,EUR
+CUST0212,Chloe Nguyen,c.nguyen@bankvn.vn,+84 876-987-112,2023-02-16,PROD2077,credit_card,TXN2012,2024-04-15T20:11:44,350,fee,14,true,2024-05-20,1200,VND
+CUST0213,Sven Andersson,sven.andersson@swedbank.se,+46 73-260-0987,2021-11-26,PROD4038,loan,TXN2013,2023-08-03T12:37:19,9200,payment,27,false,,16500,SEK
+CUST0214,Fatima Al-Sayed,fatima.alsayed@gulfbank.ae,+971 50-221-9812,2022-09-02,PROD3012,investment,TXN2014,2023-11-11T16:32:44,8500,deposit,19,false,,15000,AED
+CUST0215,Jackson Lee,jackson.lee@pacificbank.com,+1 213-922-2231,2020-05-18,PROD2077,credit_card,TXN2015,2022-09-19T19:02:11,1280,payment,46,false,,6200,USD
+CUST0216,Amira Hassan,amira.hassan@egyptfinance.com,+20 122-885-7788,2023-06-09,PROD1009,insurance,TXN2016,2024-04-03T14:45:09,320,payment,11,true,2024-05-27,1200,EGP
+CUST0217,Oliver Walker,oliver.walker@financeuk.co.uk,+44 7956 882 214,2022-01-29,PROD1045,savings_account,TXN2017,2023-05-06T09:10:01,875,deposit,28,false,,1700,GBP
+CUST0218,Natalia Kowalska,natalia.kowalska@finpol.pl,+48 511-998-122,2021-04-08,PROD3012,investment,TXN2018,2022-10-13T18:43:02,6500,deposit,37,false,,11800,PLN
+CUST0219,Oscar Silva,oscar.silva@bancobrasil.com.br,+55 11 98877-5521,2022-12-27,PROD4038,loan,TXN2019,2023-07-24T11:20:18,13200,withdrawal,16,false,,16200,BRL
+CUST0220,Sofia Anders,sofia.anders@finland.fi,+358 44 882 1102,2021-10-21,PROD1045,savings_account,TXN2020,2023-09-29T12:14:33,210,interest,31,false,,2900,EUR
+CUST0221,Khalid Rahman,khalid.rahman@bankpk.com,+92 321-882-1221,2020-06-07,PROD3012,investment,TXN2021,2022-04-23T17:11:48,9150,deposit,47,false,,19400,PKR
+CUST0222,Emily Smith,emily.smith@usfinance.com,+1 917-445-2233,2023-04-15,PROD2077,credit_card,TXN2022,2024-05-08T08:59:12,98.5,fee,13,true,2024-05-22,690,USD
+CUST0223,Sophia Lee,sophia.lee@finbank.sg,+65 9123-4455,2022-08-23,PROD1009,insurance,TXN2023,2023-11-12T10:33:45,430,deposit,20,false,,1500,SGD
+CUST0224,Henrik Larsen,henrik.larsen@danbank.dk,+45 22-990-331,2021-11-29,PROD4038,loan,TXN2024,2023-06-06T13:15:11,10300,payment,29,false,,16800,DKK
+CUST0225,Leila Haddad,leila.haddad@bankmorocco.ma,+212 661-882-100,2022-06-15,PROD1045,savings_account,TXN2025,2024-02-09T17:48:21,740,deposit,20,false,,1300,MAD
+CUST0226,William Brown,william.brown@finmail.co.uk,+44 7900 992 111,2023-03-03,PROD2077,credit_card,TXN2026,2024-05-06T16:22:41,400,refund,14,true,2024-05-28,1030,GBP
+CUST0227,Ananya Sharma,ananya.sharma@indifin.in,+91 987-211-9987,2022-02-27,PROD4038,loan,TXN2027,2023-11-19T14:21:04,15500,withdrawal,18,false,,19800,INR
+CUST0228,James Wilson,james.wilson@usfinance.com,+1 646-333-2211,2021-03-19,PROD3012,investment,TXN2028,2022-09-08T15:22:50,10400,deposit,35,false,,19400,USD
+CUST0229,Anna Dubois,anna.dubois@finfr.fr,+33 6 1144 2211,2022-01-25,PROD1045,savings_account,TXN2029,2023-08-31T09:55:02,410,deposit,22,false,,990,EUR
+CUST0230,Sara Fernandez,s.fernandez@bancoes.es,+34 661-882-155,2021-02-27,PROD2077,credit_card,TXN2030,2023-10-26T20:10:37,1450,payment,26,false,,3300,EUR
+CUST0231,David Kim,david.kim@seoulbank.kr,+82 10-9987-2201,2023-04-30,PROD1009,insurance,TXN2031,2024-05-02T08:53:19,270,payment,13,true,2024-05-29,1150,KRW
+CUST0232,Mohamed Khalifa,m.khalifa@bankegypt.com,+20 111-998-8822,2022-10-04,PROD3012,investment,TXN2032,2023-12-11T11:21:03,7500,deposit,18,false,,13100,EGP
+CUST0233,Liam Murphy,liam.murphy@emerald.ie,+353 86 992 3310,2022-08-25,PROD4038,loan,TXN2033,2023-05-29T13:48:00,8400,payment,20,false,,14200,EUR
+CUST0234,Julia Novak,julia.novak@finpl.pl,+48 511-882-110,2023-01-14,PROD1045,savings_account,TXN2034,2024-03-26T09:16:44,340,deposit,15,false,,830,PLN
+CUST0235,Patricia Clark,patricia.clark@canfinance.ca,+1 604-992-1003,2021-07-07,PROD2077,credit_card,TXN2035,2023-06-17T21:44:22,1780,payment,33,false,,3850,CAD
+CUST0236,Ahmed Mansour,ahmed.mansour@arabfinance.ae,+971 50-998-8822,2022-02-23,PROD1009,insurance,TXN2036,2023-07-08T10:37:40,530,deposit,19,false,,1400,AED
+CUST0237,Yasmin Ali,yasmin.ali@bankmorocco.ma,+212 661-882-119,2023-02-01,PROD4038,loan,TXN2037,2024-04-18T16:22:41,12200,withdrawal,15,true,2024-05-23,14900,MAD
+CUST0238,Sebastian Koller,seb.koller@spardabank.de,+49 151 8822 1001,2022-09-08,PROD3012,investment,TXN2038,2023-09-09T12:12:41,13200,deposit,20,false,,17600,EUR
+CUST0239,Grace Chen,grace.chen@bankdirect.cn,+86 135-8821-1002,2021-05-22,PROD1045,savings_account,TXN2039,2022-11-17T09:03:56,930,interest,36,false,,1750,CNY
+CUST0240,Noah Becker,noah.becker@finmail.de,+49 152 8822 1102,2022-05-03,PROD2077,credit_card,TXN2040,2023-09-19T18:27:33,990,payment,17,false,,2260,EUR
+CUST0241,Victoria Ivanova,victoria.ivanova@finrus.ru,+7 903 882 7715,2023-05-05,PROD1009,insurance,TXN2041,2024-04-24T13:22:41,410,payment,12,true,2024-05-26,1100,RUB
+CUST0242,Ethan Williams,ethan.williams@usfinance.com,+1 212-992-2201,2021-10-31,PROD3012,investment,TXN2042,2023-11-29T15:22:41,17300,deposit,19,false,,29500,USD
+CUST0243,Mei Lin,mei.lin@bankdirect.cn,+86 131-8821-1202,2022-07-11,PROD1045,savings_account,TXN2043,2023-10-12T10:32:20,620,deposit,20,false,,1040,CNY
+CUST0244,Yusuf Demir,yusuf.demir@turkbank.com,+90 532-882-2101,2022-08-19,PROD2077,credit_card,TXN2044,2023-09-20T12:12:41,780,payment,15,false,,1700,TRY
+CUST0245,Emma Johansson,emma.johansson@swedbank.se,+46 73-882-2108,2023-02-22,PROD1009,insurance,TXN2045,2024-03-18T10:18:21,320,payment,14,true,2024-05-29,990,SEK
+CUST0246,Andrei Popescu,andrei.popescu@finro.ro,+40 723-882-1001,2021-08-20,PROD4038,loan,TXN2046,2023-07-08T13:22:41,7700,payment,23,false,,13600,RON
+CUST0247,Camila Santos,camila.santos@bancobrasil.com.br,+55 21 99882-1002,2021-09-03,PROD3012,investment,TXN2047,2022-10-19T11:44:22,8400,deposit,34,false,,17500,BRL
+CUST0248,Lucas Fischer,lucas.fischer@finmail.de,+49 152 9988 2102,2023-03-20,PROD1045,savings_account,TXN2048,2024-04-29T10:22:41,530,interest,13,true,2024-05-29,1020,EUR
+CUST0249,Marta Lewandowska,marta.lewandowska@finpl.pl,+48 511-998-2102,2022-09-19,PROD2077,credit_card,TXN2049,2023-10-10T18:32:41,510,payment,16,false,,1380,PLN
+CUST0250,Tobias Keller,tobias.keller@spardabank.de,+49 151 9988 2102,2022-01-07,PROD1009,insurance,TXN2050,2023-09-22T14:22:41,580,payment,19,false,,1330,EUR
+C30001,Lena Pearson,lena.pearson.3@finvalue.com,+44 7911 416211,2020-09-15,P5011,investment,T70001,2023-07-15T09:33:21,7500.2,deposit,41,false,,12900.85,GBP
+C30002,Dustin Lee,dustin.lee.2@finvalue.com,+1 415-555-1923,2021-03-22,P5013,savings_account,T70002,2023-08-02T14:01:11,400,deposit,29,false,,1120.45,USD
+C30003,Tina Marchand,tina.marchand.3@finvalue.com,+33 6 25 71 43 01,2021-11-30,P5017,credit_card,T70003,2023-09-19T18:39:42,142.34,payment,20,false,,670.12,EUR
+C30004,Arjun Kumar,arjun.kumar.4@finvalue.com,+91 98765 21344,2020-01-07,P5020,loan,T70004,2023-06-28T15:10:02,8000,deposit,49,false,,23200,INR
+C30005,Oliver Evans,oliver.evans.5@finvalue.com,,2022-07-16,P5015,insurance,T70005,2023-10-03T11:55:44,120,fee,15,false,,420,GBP
+C30006,Fatima Al-Farsi,fatima.alfarsi.6@finvalue.com,+971 50 334 2287,2023-01-14,P5024,other,T70006,2023-12-06T08:22:10,59.9,deposit,11,true,2023-12-13,220.85,AED
+C30007,Jakub Nowak,jakub.nowak.7@finvalue.com,+48 606 102 221,2019-06-04,P5022,investment,T70007,2023-11-11T17:45:27,2600,deposit,54,false,,7800,PLN
+C30008,Mei Lin,mei.lin.8@finvalue.com,+86 139 8492 1123,2021-02-10,P5016,credit_card,T70008,2023-10-16T20:20:11,320.45,payment,29,false,,1200.55,CNY
+C30009,Lucas Martin,lucas.martin.9@finvalue.com,+34 644 321 987,2019-11-11,P5026,loan,T70009,2023-09-25T13:41:55,5000,deposit,47,false,,15000,EUR
+C30010,Nia Williams,nia.williams.10@finvalue.com,+27 82 521 6677,2022-04-30,P5021,insurance,T70010,2023-11-30T10:42:06,95.6,fee,19,false,,353.2,ZAR
+C30011,Charlotte Dubois,charlotte.dubois.11@finvalue.com,+33 7 88 23 45 67,2020-06-18,P5014,savings_account,T70011,2023-07-28T13:15:01,1300,deposit,37,false,,3200,EUR
+C30012,Miguel Fernandez,miguel.fernandez.12@finvalue.com,+34 654 987 221,2021-09-23,P5025,credit_card,T70012,2023-12-19T15:05:48,89.14,fee,27,true,2023-12-21,512.2,EUR
+C30013,Anna Johansson,anna.johansson.13@finvalue.com,+46 70 444 2312,2018-12-14,P5012,savings_account,T70013,2023-06-04T08:55:13,250,deposit,60,false,,1480,SEK
+C30014,Ahmed El-Sayed,ahmed.elsayed.14@finvalue.com,+20 102 332 1194,2021-06-03,P5023,loan,T70014,2023-08-19T12:08:45,3000,deposit,30,false,,9000,EGP
+C30015,Emily Carter,emily.carter.15@finvalue.com,,2022-09-12,P5018,insurance,T70015,2023-09-17T15:34:19,85,fee,14,false,,340,USD
+C30016,Matteo Rossi,matteo.rossi.16@finvalue.com,+39 338 319 4890,2020-03-25,P5019,investment,T70016,2023-08-31T16:49:30,2100,deposit,44,false,,6900,EUR
+C30017,Sophia Müller,sophia.mueller.17@finvalue.com,+49 171 4402251,2021-05-27,P5028,credit_card,T70017,2023-07-29T19:53:32,210,payment,31,false,,780,EUR
+C30018,John Smith,john.smith.18@finvalue.com,+1 212-555-9843,2020-11-09,P5027,loan,T70018,2023-09-30T10:12:54,10000,deposit,37,false,,30000,USD
+C30019,Ava Kim,ava.kim.19@finvalue.com,+82 10-2223-1455,2023-05-06,P5029,other,T70019,2023-12-21T09:17:44,45,deposit,7,true,2023-12-22,90,KRW
+C30020,Lucas Moreau,lucas.moreau.20@finvalue.com,+33 6 12 31 25 44,2022-12-20,P5030,investment,T70020,2023-11-06T16:25:31,4000,deposit,12,false,,6500,EUR
+C30021,Priya Singh,priya.singh.21@finvalue.com,+91 99876 17892,2019-03-30,P5032,loan,T70021,2023-08-11T13:09:17,3500,deposit,54,false,,10500,INR
+C30022,Maximilian Becker,max.becker.22@finvalue.com,+49 152 003 8392,2022-02-14,P5033,insurance,T70022,2023-09-06T12:37:19,110,fee,20,false,,440,EUR
+C30023,Sofia Costa,sofia.costa.23@finvalue.com,+351 912 223 871,2023-02-26,P5034,savings_account,T70023,2023-12-08T10:05:02,200,deposit,10,false,,395,EUR
+C30024,Oscar Pettersson,oscar.pettersson.24@finvalue.com,+46 73 221 4443,2020-07-03,P5035,credit_card,T70024,2023-07-18T15:19:52,99.99,payment,36,false,,445,SEK
+C30025,Samantha Brown,samantha.brown.25@finvalue.com,+1 718-555-2221,2021-10-05,P5036,other,T70025,2023-12-11T14:11:09,62.5,deposit,24,false,,125,USD
+C30026,Hugo Garcia,hugo.garcia.26@finvalue.com,+34 655 333 884,2021-04-15,P5037,loan,T70026,2023-08-28T18:28:26,3500,deposit,32,false,,10500,EUR
+C30027,Laila Khan,laila.khan.27@finvalue.com,+92 300 2229941,2020-10-10,P5038,insurance,T70027,2023-11-09T08:40:52,75,fee,36,false,,300,PKR
+C30028,Haruto Sato,haruto.sato.28@finvalue.com,+81 80-2214-6511,2022-01-30,P5039,investment,T70028,2023-09-27T15:51:32,1800,deposit,23,false,,5400,JPY
+C30029,Maria Silva,maria.silva.29@finvalue.com,+55 21 99221 3311,2020-05-21,P5040,savings_account,T70029,2023-07-04T11:11:47,380,deposit,39,false,,980,BRL
+C30030,William Clark,william.clark.30@finvalue.com,,2023-04-02,P5041,credit_card,T70030,2023-12-03T09:15:42,123.45,payment,8,true,2023-12-07,230,USD
+C30031,Evelyn Wood,evelyn.wood.31@finvalue.com,+1 415-555-1212,2022-08-17,P5042,insurance,T70031,2023-10-21T14:09:28,92,fee,15,false,,368,USD
+C30032,Markus Lenz,markus.lenz.32@finvalue.com,+49 176 441 7712,2021-10-27,P5043,investment,T70032,2023-08-22T16:30:08,2900,deposit,26,false,,8700,EUR
+C30033,Elena Petrova,elena.petrova.33@finvalue.com,+7 901 111 2233,2020-11-02,P5044,loan,T70033,2023-07-24T12:18:19,1500,deposit,36,false,,4500,RUB
+C30034,Mia Chen,mia.chen.34@finvalue.com,+86 138 9982 3311,2023-03-13,P5045,other,T70034,2023-12-15T16:33:55,60,deposit,10,true,2023-12-16,120,CNY
+C30035,Noah Smith,noah.smith.35@finvalue.com,+1 646-555-1133,2021-05-16,P5046,credit_card,T70035,2023-09-02T18:12:31,210,payment,31,false,,780,USD
+C30036,Jade Thompson,jade.thompson.36@finvalue.com,+61 412 332 199,2022-05-24,P5047,insurance,T70036,2023-11-18T11:03:21,110,fee,18,false,,440,AUD
+C30037,Anton Weber,anton.weber.37@finvalue.com,+49 170 333 1291,2020-02-17,P5048,investment,T70037,2023-07-08T14:49:19,3400,deposit,46,false,,10200,EUR
+C30038,Lucas White,lucas.white.38@finvalue.com,+1 212-555-1876,2022-11-09,P5049,loan,T70038,2023-10-13T11:58:22,2500,deposit,13,false,,7500,USD
+C30039,Sophie Laurent,sophie.laurent.39@finvalue.com,+33 6 22 11 44 55,2021-08-30,P5050,savings_account,T70039,2023-08-07T15:36:08,500,deposit,28,false,,1420,EUR
+C30040,Rafael Oliveira,rafael.oliveira.40@finvalue.com,+55 21 99888 1122,2020-03-29,P5051,credit_card,T70040,2023-07-12T19:48:15,155.9,payment,40,false,,650,BRL
+C30041,Sarah Johnson,sarah.johnson.41@finvalue.com,+1 646-555-2299,2021-12-22,P5052,insurance,T70041,2023-09-26T11:22:23,95,fee,22,false,,380,USD
+C30042,Gabriel Costa,gabriel.costa.42@finvalue.com,+351 912 223 871,2022-06-06,P5053,investment,T70042,2023-11-20T10:03:41,3200,deposit,18,false,,4800,EUR
+C30043,Nina Müller,nina.mueller.43@finvalue.com,+49 177 442 1122,2019-07-21,P5054,loan,T70043,2023-06-28T10:35:32,4000,deposit,52,false,,12000,EUR
+C30044,Leo Andersson,leo.andersson.44@finvalue.com,+46 70 555 2214,2023-05-17,P5055,other,T70044,2023-12-12T12:09:43,55,deposit,7,true,2023-12-14,110,SEK
+C30045,Amelia Taylor,amelia.taylor.45@finvalue.com,+1 646-555-1222,2023-01-03,P5056,credit_card,T70045,2023-12-25T18:03:39,95,payment,11,true,2023-12-27,210,USD
+C30046,Oliver Schneider,oliver.schneider.46@finvalue.com,+49 176 441 7712,2022-10-03,P5057,insurance,T70046,2023-10-24T17:21:41,85,fee,13,false,,340,EUR
+C30047,Chloe Martin,chloe.martin.47@finvalue.com,+33 7 88 23 45 67,2020-09-09,P5058,investment,T70047,2023-07-21T09:18:41,1800,deposit,39,false,,5400,EUR
+C30048,Jacob Lee,jacob.lee.48@finvalue.com,+1 718-555-2221,2023-06-01,P5059,loan,T70048,2023-12-10T15:32:11,900,deposit,6,true,2023-12-12,1800,USD
+C30049,Emma Wilson,emma.wilson.49@finvalue.com,+44 7911 416211,2021-07-21,P5060,credit_card,T70049,2023-09-13T20:19:55,85,payment,27,false,,275,GBP
+C30050,Isabella Costa,isabella.costa.50@finvalue.com,+351 912 331 122,2022-05-12,P5061,savings_account,T70050,2023-12-01T08:16:15,350,deposit,19,false,,700,EUR
+CUST0401,Marina Vasilev,marina.vasilev401@finbatch.com,+44 7912 654123,2021-02-11,PROD2201,investment,TXN1601,2024-03-04T13:07:45,2450.37,deposit,37,false,,17632.15,GBP
+CUST0402,Patrick Nguyen,patrick.nguyen402@finbatch.com,+61 402 814 232,2021-10-19,PROD2202,insurance,TXN1602,2023-12-09T10:05:18,197.64,payment,29,false,,823.55,AUD
+CUST0403,Katherine Lee,k.lee403@finbatch.com,+1 415-781-0909,2022-03-05,PROD2203,savings_account,TXN1603,2024-04-26T09:31:17,1045.89,deposit,26,false,,6794.99,USD
+CUST0404,Luca De Rossi,lucaderossi404@finbatch.com,+39 347 334 9988,2020-09-17,PROD2204,loan,TXN1604,2024-03-22T14:47:22,3575,withdrawal,44,false,,32014.05,EUR
+CUST0405,Sophia Almeida,s.almeida405@finbatch.com,+55 11 99876 2341,2022-06-23,PROD2205,credit_card,TXN1605,2024-05-15T17:25:09,484.21,payment,20,false,,2251.32,BRL
+CUST0406,Ananya Mehra,ananya.mehra406@finbatch.com,+91 98765 12094,2021-05-14,PROD2206,investment,TXN1606,2024-01-25T16:54:45,5120.5,deposit,34,false,,29542.67,INR
+CUST0407,Marc Dubois,mdubois407@finbatch.com,+33 6 11 22 33 44,2023-01-11,PROD2207,savings_account,TXN1607,2024-06-01T12:37:12,1289.44,deposit,17,false,,4482.54,EUR
+CUST0408,Emily Carter,emily.carter408@finbatch.com,+1 312-661-2312,2022-08-13,PROD2208,credit_card,TXN1608,2024-06-03T18:01:23,246.5,payment,22,true,2024-05-17,980,USD
+CUST0409,Gustavo Torres,gustavo.torres409@finbatch.com,+34 656 555 789,2020-10-28,PROD2209,insurance,TXN1609,2023-12-30T15:28:19,115.25,payment,36,false,,621,EUR
+CUST0410,Chloe Tan,chloe.tan410@finbatch.com,+65 9123 2344,2021-03-29,PROD2210,loan,TXN1610,2024-04-10T11:49:37,4500,withdrawal,39,false,,22500,SGD
+CUST0411,Viktor Johansson,viktor.johansson411@finbatch.com,+46 70 123 4567,2022-02-21,PROD2211,savings_account,TXN1611,2024-05-13T09:44:21,1100.1,deposit,27,false,,6521.8,SEK
+CUST0412,Nia Mwangi,nia.mwangi412@finbatch.com,+254 722 123 345,2023-04-16,PROD2212,insurance,TXN1612,2024-03-22T18:37:51,88.7,payment,14,false,,324.5,KES
+CUST0413,Mateo Garcia,mateo.garcia413@finbatch.com,+52 55 2123 4567,2022-11-22,PROD2213,credit_card,TXN1613,2024-06-07T21:55:05,353.75,fee,19,true,2024-03-28,1120.25,MXN
+CUST0414,Zara Hussain,zara.hussain414@finbatch.com,+92 330 1234567,2021-07-08,PROD2214,investment,TXN1614,2024-04-30T10:32:18,2300,deposit,35,false,,12100,PKR
+CUST0415,Jason Wu,jason.wu415@finbatch.com,+86 138 1234 5678,2020-12-05,PROD2215,loan,TXN1615,2024-02-13T08:14:31,7300.2,withdrawal,39,false,,41200.85,CNY
+CUST0416,Megan Smith,megan.smith416@finbatch.com,+1 212-882-9072,2022-01-14,PROD2216,savings_account,TXN1616,2024-05-20T16:38:03,870.45,deposit,28,false,,5100.6,USD
+CUST0417,Carlos Lima,c.lima417@finbatch.com,+351 912 345 678,2023-07-09,PROD2217,credit_card,TXN1617,2024-06-09T11:27:19,180,payment,10,false,,780,EUR
+CUST0418,Tessa Muller,tessa.muller418@finbatch.com,+49 151 12345678,2021-05-30,PROD2218,investment,TXN1618,2024-03-14T13:54:34,3900,deposit,32,false,,17850,EUR
+CUST0419,Isabel Romero,isabel.romero419@finbatch.com,+34 644 321 987,2022-09-05,PROD2219,insurance,TXN1619,2023-11-11T12:59:02,125.3,payment,23,false,,562.8,EUR
+CUST0420,Oliver Evans,oliver.evans420@finbatch.com,+44 7799 223344,2021-08-27,PROD2220,loan,TXN1620,2024-05-29T10:40:56,2680,withdrawal,33,false,,17540,GBP
+CUST0421,Heidi Karlsson,heidi.karlsson421@finbatch.com,+46 73 456 7890,2023-02-15,PROD2221,savings_account,TXN1621,2024-06-02T08:05:10,950.6,deposit,15,false,,3350.45,SEK
+CUST0422,Mohamed Hassan,mohamed.hassan422@finbatch.com,+20 100 123 4567,2021-12-02,PROD2222,insurance,TXN1622,2024-04-08T12:22:02,73.8,payment,29,false,,316.4,EGP
+CUST0423,George Papadopoulos,g.papadopoulos423@finbatch.com,+30 694 123 4567,2020-07-24,PROD2223,credit_card,TXN1623,2024-05-23T17:11:49,210,payment,43,false,,1080,EUR
+CUST0424,Jasmine Patel,jasmine.patel424@finbatch.com,+91 97654 32109,2021-11-28,PROD2224,investment,TXN1624,2024-02-27T13:17:01,1500,deposit,30,false,,9200,INR
+CUST0425,Aiden Murphy,aiden.murphy425@finbatch.com,+353 86 123 4567,2022-05-04,PROD2225,loan,TXN1625,2024-04-21T09:08:56,3400,withdrawal,24,false,,14200,EUR
+CUST0426,Hannah Kim,hannah.kim426@finbatch.com,+82 10 1234 5678,2020-03-12,PROD2226,savings_account,TXN1626,2024-05-30T10:19:09,1250,deposit,51,false,,10200,KRW
+CUST0427,Jorge Castillo,jorge.castillo427@finbatch.com,+57 320 1234567,2022-09-28,PROD2227,insurance,TXN1627,2024-06-04T15:42:33,92,payment,20,false,,430,COP
+CUST0428,Ella Wilson,ella.wilson428@finbatch.com,+1 718-994-1234,2021-09-15,PROD2228,credit_card,TXN1628,2024-06-08T14:14:32,312.8,payment,34,false,,1450.5,USD
+CUST0429,Francois Martin,francois.martin429@finbatch.com,+33 7 45 67 89 01,2021-04-26,PROD2229,investment,TXN1629,2024-04-18T10:38:29,2750,deposit,38,false,,12250,EUR
+CUST0430,Grace Li,grace.li430@finbatch.com,+852 6123 4567,2022-06-14,PROD2230,loan,TXN1630,2024-05-27T18:23:17,5100,withdrawal,23,false,,20800,HKD
+CUST0431,Diana Popescu,diana.popescu431@finbatch.com,+40 721 123 456,2022-10-08,PROD2231,savings_account,TXN1631,2024-06-05T09:11:02,980,deposit,19,false,,3520,RON
+CUST0432,Samuel Nkosi,samuel.nkosi432@finbatch.com,+27 82 123 4567,2023-03-18,PROD2232,insurance,TXN1632,2024-05-25T16:58:18,105,payment,13,false,,447,ZAR
+CUST0433,Nina Petrov,nina.petrov433@finbatch.com,+7 916 123 4567,2021-02-12,PROD2233,credit_card,TXN1633,2024-06-10T11:44:48,425.9,fee,39,true,2024-04-17,1812.56,RUB
+CUST0434,Ethan Brown,ethan.brown434@finbatch.com,+1 718-998-1234,2021-05-18,PROD2234,investment,TXN1634,2024-04-25T12:02:01,3200,deposit,36,false,,13280,USD
+CUST0435,Sara Mendes,sara.mendes435@finbatch.com,+351 962 123 456,2022-01-22,PROD2235,loan,TXN1635,2024-03-14T14:22:47,3980,withdrawal,26,false,,15320,EUR
+CUST0436,David Chan,david.chan436@finbatch.com,+852 6432 1987,2022-08-05,PROD2236,savings_account,TXN1636,2024-06-03T17:18:22,1105.67,deposit,23,false,,4850,HKD
+CUST0437,Fatima El Idrissi,fatima.elidrissi437@finbatch.com,+212 661 123456,2021-06-23,PROD2237,insurance,TXN1637,2024-05-15T15:29:44,82,payment,34,false,,335,MAD
+CUST0438,Khalid Al Faisal,khalid.alfaisal438@finbatch.com,+966 55 123 4567,2022-02-06,PROD2238,credit_card,TXN1638,2024-06-11T13:09:13,212,payment,28,false,,1080,SAR
+CUST0439,Anna Schmidt,anna.schmidt439@finbatch.com,+49 151 98765432,2021-10-12,PROD2239,investment,TXN1639,2024-04-20T11:17:08,2500,deposit,32,false,,12000,EUR
+CUST0440,Mikhail Orlov,mikhail.orlov440@finbatch.com,+7 926 432 1234,2022-08-24,PROD2240,loan,TXN1640,2024-05-19T14:49:12,6500,withdrawal,21,false,,34950,RUB
+CUST0441,Charlotte Dubois,charlotte.dubois441@finbatch.com,+33 6 87 65 43 21,2022-04-05,PROD2241,savings_account,TXN1641,2024-06-06T10:22:33,1050,deposit,26,false,,4320,EUR
+CUST0442,Diego Fernandez,diego.fernandez442@finbatch.com,+34 667 234 567,2023-06-11,PROD2242,insurance,TXN1642,2024-05-27T13:33:22,110,payment,12,false,,330,EUR
+CUST0443,Haruka Kobayashi,haruka.kobayashi443@finbatch.com,+81 90 1234 5678,2021-09-28,PROD2243,credit_card,TXN1643,2024-06-12T09:18:41,306,payment,33,false,,1697,JPY
+CUST0444,Sofia Petrova,sofia.petrova444@finbatch.com,+359 87 123 4567,2022-03-11,PROD2244,investment,TXN1644,2024-06-07T11:55:45,1850,deposit,27,false,,7860,BGN
+CUST0445,Mason Hall,mason.hall445@finbatch.com,+1 617-993-1234,2022-04-25,PROD2245,loan,TXN1645,2024-05-30T13:17:09,1950,withdrawal,25,false,,7950,USD
+CUST0446,Elena Ivanova,elena.ivanova446@finbatch.com,+7 965 876 1234,2021-11-13,PROD2246,savings_account,TXN1646,2024-05-22T18:44:34,1025,deposit,31,false,,3670,RUB
+CUST0447,Mohammed Al Rashid,mohammed.alrashid447@finbatch.com,+966 55 987 6543,2022-05-19,PROD2247,insurance,TXN1647,2024-05-17T09:09:53,85,payment,24,false,,359,SAR
+CUST0448,Lucas Moreira,lucas.moreira448@finbatch.com,+55 21 99887 6543,2021-08-31,PROD2248,credit_card,TXN1648,2024-06-07T19:49:23,274,payment,34,false,,1230,BRL
+CUST0449,Marie Dubois,marie.dubois449@finbatch.com,+33 6 77 88 99 00,2022-03-30,PROD2249,investment,TXN1649,2024-06-01T07:24:33,2675,deposit,27,false,,11200,EUR
+CUST0450,Jack Thompson,jack.thompson450@finbatch.com,+1 718-998-9988,2021-07-14,PROD2250,loan,TXN1650,2024-05-29T12:14:45,5100,withdrawal,35,false,,21500,USD
