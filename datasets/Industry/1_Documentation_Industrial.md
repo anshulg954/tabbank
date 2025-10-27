@@ -7,7 +7,7 @@ This file contains detailed description about each of the datasets to be conside
 ## 1. `AI4I 2020 Predictive Maintenance Dataset`
 - **Description:** The AI4I 2020 Predictive Maintenance Dataset is a synthetic dataset that reflects real predictive maintenance data encountered in industry.
 - **Source:** <a href="https://archive.ics.uci.edu/dataset/601/ai4i+2020+predictive+maintenance+dataset">UCIMLR</a>
-- **File:**  ![AI4I_2020_Predictive_Maintenance.csv](.datasets/Industry/classification/AI4I_2020_Predictive_Maintenance.csv)
+- **File:**  ![AI4I_2020_Predictive_Maintenance.csv](../../datasets/Industry/classification/AI4I_2020_Predictive_Maintenance.csv)
 - **#Rows:** 10000
 - **#Features:** 14
 - **Target:** `MachineFailure`
@@ -41,7 +41,7 @@ to overstrain<br>
 ## 2. `Productivity Prediction of Garment Employees`
 - **Description:** This dataset includes important attributes of the garment manufacturing process and the productivity of the employees which had been collected manually and also been validated by the industry experts.
 - **Source:** <a href="https://archive.ics.uci.edu/dataset/597/productivity+prediction+of+garment+employees">UCIMLR</a>
-- **File:**  ![garments_worker_productivity.csv](.datasets/Industry/regression/garments_worker_productivity.csv)
+- **File:**  ![garments_worker_productivity.csv](../../datasets/Industry/regression/garments_worker_productivity.csv)
 - **#Rows:** 1197r
 - **#Features:** 14
 - **Target:** `actual_productivity`
@@ -66,7 +66,7 @@ to overstrain<br>
 ## 3. `Predicting Manufacturing Defects Dataset`
 - **Description:** This dataset provides insights into factors influencing defect rates in a manufacturing environment. Each record represents various metrics crucial for predicting high or low defect occurrences in production processes.
 - **Source:** <a href="https://www.kaggle.com/datasets/rabieelkharoua/predicting-manufacturing-defects-dataset">Kaggle</a>
-- **File:**  ![manufacturing_defect_dataset.csv](.datasets/Industry/classification/manufacturing_defect_dataset.csv)
+- **File:**  ![manufacturing_defect_dataset.csv](../../datasets/Industry/classification/manufacturing_defect_dataset.csv)
 - **#Rows:** 3240
 - **#Features:** 17
 - **Target:** `DefectStatus`
@@ -99,7 +99,7 @@ to overstrain<br>
 ## 4. `Building Structural Health Sensor Dataset`
 - **Description:** This dataset is designed for research and development in Structural Health Monitoring (SHM) using embedded systems and machine learning techniques. It contains simulated time-series sensor data representing the physical state of building structures under various operational and environmental conditions.
 - **Source:** <a href="https://www.kaggle.com/datasets/ziya07/building-structural-health-sensor-dataset/data">Kaggle</a>
-- **File:**  ![building_health_monitoring_dataset.csv](.datasets/Industry/classification/building_health_monitoring_dataset.csv)
+- **File:**  ![building_health_monitoring_dataset.csv](../../datasets/Industry/classification/building_health_monitoring_dataset.csv)
 - **#Rows:** 1000
 - **#Features:** 7
 - **Target:** `ConditionLabel`
@@ -122,7 +122,7 @@ to overstrain<br>
 ## 5. `Concrete Compressive Strength`
 - **Description:** Concrete is the most important material in civil engineering. The concrete compressive strength is a highly nonlinear function of age and ingredients.
 - **Source:** <a href="https://archive.ics.uci.edu/dataset/165/concrete+compressive+strength">UCIMLR</a>
-- **File:**  ![Concrete_Data.csv](.datasets/Industry/regression/Concrete_Data.csv)
+- **File:**  ![Concrete_Data.csv](../../datasets/Industry/regression/Concrete_Data.csv)
 - **#Rows:** 1030
 - **#Features:** 9
 - **Target:** `ConcreteCompressiveStrength`
@@ -142,7 +142,7 @@ to overstrain<br>
 ## 6. `Material science dataset for battery prediction`
 - **Description:** Concrete is the most important material in civil engineering. The concrete compressive strength is a highly nonlinear function of age and ingredients.
 - **Source:** <a href="https://archive.ics.uci.edu/dataset/165/concrete+compressive+strength">UCIMLR</a>
-- **File:**  ![lithium_battery_materials.csv](.datasets/Industry/classification/lithium_battery_materials.csv)
+- **File:**  ![lithium_battery_materials.csv](../../datasets/Industry/classification/lithium_battery_materials.csv)
 - **#Rows:** 1030
 - **#Features:** 9
 - **Target:** `is_semiconductor`
@@ -165,7 +165,7 @@ to overstrain<br>
 ## 7. ` Inorganic ABX3 Perovskite Materials Dataset`
 - **Description:** Concrete is the most important material in civil engineering. The concrete compressive strength is a highly nonlinear function of age and ingredients.
 - **Source:** <a href="https://github.com/chenebuah/ML_abx3_dataset">GitHub</a>
-- **File:**  ![abc3_data.csv](.datasets/Industry/classification/abc3_data.csv)
+- **File:**  ![abc3_data.csv](../../datasets/Industry/classification/abc3_data.csv)
 - **#Rows:** 4557
 - **#Features:** 21
 - **Target:** `stable`
@@ -199,7 +199,7 @@ to overstrain<br>
 ## 8. `Supply Chain Dataset`
 - **Description:** This is a dataset we collected from a Fashion and Beauty startup. The dataset is based on the supply chain of Makeup products.
 - **Source:** <a href="https://www.kaggle.com/datasets/amirmotefaker/supply-chain-dataset">Kaggle</a>
-- **File:**  ![supply_chain_data.csv](.datasets/Industry/regression/supply_chain_data.csv)
+- **File:**  ![supply_chain_data.csv](../../datasets/Industry/regression/supply_chain_data.csv)
 - **#Rows:** 101
 - **#Features:** 24
 - **Target:** `RevenueGenerated`
@@ -234,7 +234,7 @@ to overstrain<br>
 ## 9. `Steel Industry Dataset`
 - **Description:** This company produces several types of coils, steel plates, and iron plates. The information on electricity consumption is held in a cloud-based system. The information on energy consumption of the industry is stored on the website of the Korea Electric Power Corporation (pccs.kepco.go.kr), and the perspectives on daily, monthly, and annual data are calculated and shown.
 - **Source:** <a href="https://www.kaggle.com/code/bayunova/steel-industry-energy-consumption">Kaggle</a>
-- **File:**  ![steel_industry_data.csv](.datasets/Industry/regression/Steel_industry_data.csv)
+- **File:**  ![steel_industry_data.csv](../../datasets/Industry/regression/Steel_industry_data.csv)
 - **#Rows:** 101
 - **#Features:** 24
 - **Target:** `Usage_kWh`
