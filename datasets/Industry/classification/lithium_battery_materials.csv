@@ -1,4 +1,4 @@
-material_id,formula_pretty,n_elements,contains_transition_metal,formation_energy_per_atom,energy_per_atom,band_gap,density,volume,elements,is_semiconductor
+material_id,formula_pretty,n_elements,contains_transition_metal,formation_energy_per_atom,energy_per_atom,band_gap,density,volume,elements,Target
 mp-756176,Li2CrS3,3,FALSE,0.8778790581,0.5184841643,-0.8682128618,-0.6346557613,-0.1286174432,"['Cr', 'Li', 'S']",FALSE
 mp-1175222,Li7Mn4CoO12,4,TRUE,-0.09633283483,0.1046886953,-0.2808316473,0.1296784445,-0.6068599811,"['Co', 'Li', 'Mn', 'O']",FALSE
 mp-1174116,Li5Co3O8,3,TRUE,0.3565613715,0.3538093266,-0.8682128618,0.2063528031,-0.8370614638,"['Co', 'Li', 'O']",FALSE

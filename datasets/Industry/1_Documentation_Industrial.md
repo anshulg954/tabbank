@@ -5,12 +5,13 @@ This file contains detailed description about each of the datasets to be conside
 
 
 ## 1. `AI4I 2020 Predictive Maintenance Dataset`
-- **Description:** The AI4I 2020 Predictive Maintenance Dataset is a synthetic dataset that reflects real predictive maintenance data encountered in industry.
+- **Description:** The AI4I 2020 Predictive Maintenance Dataset is a synthetic dataset that reflects real predictive maintenance data encountered in industry. It is obtained from UCIMLR. The target column is "Machine Failure" which has been converted to "target".
 - **Source:** <a href="https://archive.ics.uci.edu/dataset/601/ai4i+2020+predictive+maintenance+dataset">UCIMLR</a>
 - **File:**  ![AI4I_2020_Predictive_Maintenance.csv](../../datasets/Industry/classification/AI4I_2020_Predictive_Maintenance.csv)
 - **#Rows:** 10000
 - **#Features:** 14
-- **Target:** `MachineFailure`
+- **Target:** `Target`
+- **Task:** `Classification`
 - **#Views:** 85066 (as of October 21, 2025)
 - **Additional Description:** "Since real predictive maintenance datasets are generally difficult to obtain and in particular difficult to publish, we present and provide a synthetic dataset that reflects real predictive maintenance encountered in industry to the best of our knowledge."
 - **Features:** <br>
@@ -35,18 +36,19 @@ to overstrain<br>
 |- Case for 98 data points <br>
 `RNF (Random Failures)`: Each process has a chance of 0,1 % to fail regardless of its process parameters<br>
 |- Case for 19 data points <br>
-`MachineFailure (Target)`: Did the machine fail at this particular datapoint due to any to above five failure categories?<br>
+`Target (MachineFailure)`: Did the machine fail at this particular datapoint due to any to above five failure categories?<br>
 
 
 ## 2. `Productivity Prediction of Garment Employees`
-- **Description:** This dataset includes important attributes of the garment manufacturing process and the productivity of the employees which had been collected manually and also been validated by the industry experts.
+- **Description:** This dataset includes important attributes of the garment manufacturing process and the productivity of the employees which had been collected manually and also been validated by the industry experts. It is obtained from UCIMLR and the target column is "actual_productivity" which has been converted to "target".
 - **Source:** <a href="https://archive.ics.uci.edu/dataset/597/productivity+prediction+of+garment+employees">UCIMLR</a>
 - **File:**  ![garments_worker_productivity.csv](../../datasets/Industry/regression/garments_worker_productivity.csv)
-- **#Rows:** 1197r
+- **#Rows:** 1197
 - **#Features:** 14
-- **Target:** `actual_productivity`
+- **Target:** `target`
+- **Task:** `Regression`
 - **#Views:** 50927 (as of October 21, 2025)
-- **Additional Description:** "The Garment Industry is one of the key examples of the industrial globalization of this modern era. It is a highly labour-intensive industry with lots of manual processes. Satisfying the huge global demand for garment products is mostly dependent on the production and delivery performance of the employees in the garment manufacturing companies. So, it is highly desirable among the decision makers in the garments industry to track, analyse and predict the productivity performance of the working teams in their factories. This dataset can be used for regression purpose by predicting the productivity range (0-1) or for classification purpose by transforming the productivity range (0-1) into different classes."
+- **Additional Description:** The Garment Industry is one of the key examples of the industrial globalization of this modern era. It is a highly labour-intensive industry with lots of manual processes. Satisfying the huge global demand for garment products is mostly dependent on the production and delivery performance of the employees in the garment manufacturing companies. So, it is highly desirable among the decision makers in the garments industry to track, analyse and predict the productivity performance of the working teams in their factories. This dataset can be used for regression purpose by predicting the productivity range (0-1) or for classification purpose by transforming the productivity range (0-1) into different classes.
 - **Features:** <br>
 `date`: Date in MM-DD-YYYY <br>
 `day`: Day of the Week<br>
@@ -61,15 +63,16 @@ to overstrain<br>
 `over_time`:Represents the amount of overtime by each team in minutes<br>
 `idle_time`: The amount of time when the production was interrupted due to several reasons<br>
 `idle_men`: The number of workers who were idle due to production interruption<br>
-`actual_productivity (Target)`: The actual % of productivity that was delivered by the workers. It ranges from 0-1<br>
+`Target (actual_productivity)`: The actual % of productivity that was delivered by the workers. It ranges from 0-1<br>
 
 ## 3. `Predicting Manufacturing Defects Dataset`
-- **Description:** This dataset provides insights into factors influencing defect rates in a manufacturing environment. Each record represents various metrics crucial for predicting high or low defect occurrences in production processes.
+- **Description:** This dataset provides insights into factors influencing defect rates in a manufacturing environment. Each record represents various metrics crucial for predicting high or low defect occurrences in production processes. The dataset has been obtained from Kaggle and the target column is "defectStatus", which has been converted to "Target".
 - **Source:** <a href="https://www.kaggle.com/datasets/rabieelkharoua/predicting-manufacturing-defects-dataset">Kaggle</a>
 - **File:**  ![manufacturing_defect_dataset.csv](../../datasets/Industry/classification/manufacturing_defect_dataset.csv)
 - **#Rows:** 3240
 - **#Features:** 17
-- **Target:** `DefectStatus`
+- **Target:** `Target`
+- **Task:** `Classification`
 - **#Views:** 35500 (as of October 21, 2025)
 - **#Downloads:** 7265 (as of October 21, 2025)
 
@@ -97,12 +100,14 @@ to overstrain<br>
 
 
 ## 4. `Building Structural Health Sensor Dataset`
-- **Description:** This dataset is designed for research and development in Structural Health Monitoring (SHM) using embedded systems and machine learning techniques. It contains simulated time-series sensor data representing the physical state of building structures under various operational and environmental conditions.
+- **Description:** This dataset is designed for research and development in Structural Health Monitoring (SHM) using embedded systems and machine learning techniques. It contains simulated time-series sensor data representing the physical state of building structures under various operational and environmental conditions. The target column is "ConditionLabel", which has been converted to "Target".
 - **Source:** <a href="https://www.kaggle.com/datasets/ziya07/building-structural-health-sensor-dataset/data">Kaggle</a>
-- **File:**  ![building_health_monitoring_dataset.csv](../../datasets/Industry/classification/building_health_monitoring_dataset.csv)
+- **File:**  ![building_health_monitoring_dataset.csv](../../datasets/Industry/WithoutDescriptions/building_health_monitoring_dataset.csv)
 - **#Rows:** 1000
 - **#Features:** 7
-- **Target:** `ConditionLabel`
+- **Target:** `Target`
+- **Task:** `Classification`
+- **Note** `Feature description generated with LLM`
 - **#Views:** 1508 (as of October 21, 2025)
 - **#Downloads:** 263 (as of October 21, 2025)
 
@@ -113,19 +118,21 @@ to overstrain<br>
 `Accel_Z`: Accelerometer reading on Z axis (m/s^2)<br>
 `Strain`: Microstrain reading (Î¼Îµ)<br>
 `Temp`: Reading from temperature sensors (Â°C)<br>
-`ConditionLabel (Target)`: Structural condition, 0: Healthy, 1: Minor Damage, 2: Severe Damage<br>
+`Target (ConditionLabel)`: Structural condition, 0: Healthy, 1: Minor Damage, 2: Severe Damage<br>
 
 ---
 # Industrial Domain - Materials
 
 
 ## 5. `Concrete Compressive Strength`
-- **Description:** Concrete is the most important material in civil engineering. The concrete compressive strength is a highly nonlinear function of age and ingredients.
+- **Description:** Concrete is the most important material in civil engineering. The concrete compressive strength is a highly nonlinear function of age and ingredients. The target column is "ConcreteCompressiveStrength", which is converted to "Target".
 - **Source:** <a href="https://archive.ics.uci.edu/dataset/165/concrete+compressive+strength">UCIMLR</a>
-- **File:**  ![Concrete_Data.csv](../../datasets/Industry/regression/Concrete_Data.csv)
+- **File:**  ![Concrete_Data.csv](../../datasets/Industry/WithoutDescriptions/Concrete_Data.csv)
 - **#Rows:** 1030
 - **#Features:** 9
-- **Target:** `ConcreteCompressiveStrength`
+- **Target:** `target`
+- **Task:** `Regression`
+- **Note** `Feature description generated with LLM`
 - **#Views:** 88099 (as of October 21, 2025)
 
 - **Features:** <br>
@@ -137,15 +144,16 @@ to overstrain<br>
 `CoarseAggregate`: Crushed stone or gravel providing bulk and strength to the concrete (kg/m³)<br>
 `FineAggregate`: Sand used to fill voids and improve finish and density (kg/m³)<br>
 `Age`: Curing age of the concrete at the time of strength testing. Strength increases with age (days)<br>
-`ConcreteCompressiveStrength (Target)`: Compressive strength of the cured concrete specimen, the main indicator of material performance (MPa)<br>
+`Target (ConcreteCompressiveStrength)`: Compressive strength of the cured concrete specimen, the main indicator of material performance (MPa)<br>
 
 ## 6. `Material science dataset for battery prediction`
-- **Description:** Concrete is the most important material in civil engineering. The concrete compressive strength is a highly nonlinear function of age and ingredients.
+- **Description:** Concrete is the most important material in civil engineering. The concrete compressive strength is a highly nonlinear function of age and ingredients. The target column is "is_semiconductor" which has been converted to "target".
 - **Source:** <a href="https://archive.ics.uci.edu/dataset/165/concrete+compressive+strength">UCIMLR</a>
 - **File:**  ![lithium_battery_materials.csv](../../datasets/Industry/classification/lithium_battery_materials.csv)
 - **#Rows:** 1030
 - **#Features:** 9
-- **Target:** `is_semiconductor`
+- **Target:** `target`
+- **Task** `Classification`
 - **#Views:** 1873 (as of October 21, 2025)
 - **#Downloads:** 240 (as of October 21, 2025)
 
@@ -160,7 +168,7 @@ to overstrain<br>
 `density`: Material density derived from crystal structure and atomic masses<br>
 `volume`: Volume of the material’s primitive or conventional unit cell, per formula unit<br>
 `elements`: List of individual elements present in the compound; useful for compositional feature engineering<br>
-`is_semiconductor (Target)`: True if the band gap exceeds a defined threshold (usually >0 eV); indicates semiconducting behavior (T/F)<br>
+`Target (is_semiconductor)`: True if the band gap exceeds a defined threshold (usually >0 eV); indicates semiconducting behavior (T/F)<br>
 
 ## 7. ` Inorganic ABX3 Perovskite Materials Dataset`
 - **Description:** Concrete is the most important material in civil engineering. The concrete compressive strength is a highly nonlinear function of age and ingredients.
@@ -168,7 +176,7 @@ to overstrain<br>
 - **File:**  ![abc3_data.csv](../../datasets/Industry/classification/abc3_data.csv)
 - **#Rows:** 4557
 - **#Features:** 21
-- **Target:** `stable`
+- **Target:** `Target`
 
 - **Features:** <br>
 `mp_id`: Unique Materials Project identifier for each compound; can be used to retrieve metadata or structure <br>
@@ -193,16 +201,17 @@ to overstrain<br>
 `volume`: Unit-cell volume of the relaxed structure (cubic angstrom)<br>
 `bulk_modulus`: Elastic bulk modulus, resistance to uniform compression; values may be given as dict (Voigt, Reuss, VRH averages) (GPa)<br>
 `shear_modulus`: Elastic shear modulus, resistance to shape deformation; also provided as averaged values (GPa)<br>
-`stable (Target)`: Thermodynamic stability indicator (TRUE if on the convex hull, else FALSE)<br>
+`Target (stable)`: Thermodynamic stability indicator (TRUE if on the convex hull, else FALSE)<br>
 
 
 ## 8. `Supply Chain Dataset`
-- **Description:** This is a dataset we collected from a Fashion and Beauty startup. The dataset is based on the supply chain of Makeup products.
+- **Description:** This is a dataset we collected from a Fashion and Beauty startup. The dataset is based on the supply chain of Makeup products. The target column is "RevenueGenerated", which has been converted to "Target".
 - **Source:** <a href="https://www.kaggle.com/datasets/amirmotefaker/supply-chain-dataset">Kaggle</a>
-- **File:**  ![supply_chain_data.csv](../../datasets/Industry/regression/supply_chain_data.csv)
+- **File:**  ![supply_chain_data.csv](../../datasets/Industry/WithoutDescription/supply_chain_data.csv)
 - **#Rows:** 101
 - **#Features:** 24
-- **Target:** `RevenueGenerated`
+- **Target:** `Target`
+- **Note** `Feature description generated with LLM`
 
 - **Features:** <br>
 `ProductType`: Category of the product<br>
@@ -228,7 +237,7 @@ to overstrain<br>
 `TransportationModes`: Mode of transport used for distribution<br>
 `Routes`: Distribution route code or identifier<br>
 `Costs`: Total logistics or transportation cost for the route<br>
-`RevenueGenerated (Target)`: Total sales revenue for the product<br>
+`Target (RevenueGenerated)`: Total sales revenue for the product<br>
 
 
 ## 9. `Steel Industry Dataset`
@@ -237,7 +246,8 @@ to overstrain<br>
 - **File:**  ![steel_industry_data.csv](../../datasets/Industry/regression/Steel_industry_data.csv)
 - **#Rows:** 101
 - **#Features:** 24
-- **Target:** `Usage_kWh`
+- **Target:** `Target`
+- **Note** `Feature description generated with LLM`
 - **Features:** <br>
 `Date`: Continuous-time data taken on the first of the month<br>
 `Leading Current`: reactive power Continuous kVarh<br>
@@ -246,4 +256,4 @@ to overstrain<br>
 `Week status`: Categorical (Weekend (0) or a Weekday(1))<br>
 `Day of week`: Categorical Sunday, Monday : Saturday<br>
 `Load Type`: Categorical Light Load, Medium Load, Maximum Load<br>
-`Usage_kWh (Target)`: Industry Energy Consumption Continuous kWh<br>
+`Target (Usage_kWh)`: Industry Energy Consumption Continuous kWh<br>
