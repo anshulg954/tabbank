@@ -257,3 +257,123 @@ to overstrain<br>
 `Day of week`: Categorical Sunday, Monday : Saturday<br>
 `Load Type`: Categorical Light Load, Medium Load, Maximum Load<br>
 `Target (Usage_kWh)`: Industry Energy Consumption Continuous kWh<br>
+
+## 10. `Air Quality Dataset`
+- **Description:** This dataset contains hourly averaged responses from an array of chemical sensors embedded in an Air Quality Chemical Multisensor Device. The device was deployed in an Italian city to monitor ambient air pollutants and meteorological variables. It includes concentrations of gases like CO, NMHC, benzene, NOx, and NO₂, as well as temperature, humidity, and absolute pressure. The data is intended for air quality prediction and sensor calibration studies.
+- **Source:** <a href="https://archive.ics.uci.edu/dataset/360/air+quality">UCIMLR</a>
+- **File:** ![AirQualityUCI.csv](../../datasets/Industry/regression/AirQualityUCI.csv)
+- **#Rows:** 9358  
+- **#Features:** 15  
+- **Target:** `CO(GT) (Regression)`  
+- **Views:** 213283
+- **Features:** <br>
+`Date`: Date (DD/MM/YYYY)<br>
+`Time`: Time (HH.MM.SS)<br>
+`PT08.S1(CO)`: Tin oxide sensor response (nominally CO targeted)<br>
+`NMHC(GT)`: True hourly averaged concentration of Non-Methane Hydrocarbons in µg/m³<br>
+`C6H6(GT)`: True hourly averaged benzene concentration in µg/m³<br>
+`PT08.S2(NMHC)`: Titanium dioxide sensor response (nominally NMHC targeted)<br>
+`NOx(GT)`: True hourly averaged concentration of NOx in ppb<br>
+`PT08.S3(NOx)`: Tungsten oxide sensor response (nominally NOx targeted)<br>
+`NO2(GT)`: True hourly averaged concentration of NO₂ in µg/m³<br>
+`PT08.S4(NO2)`: Tungsten oxide sensor response (nominally NO₂ targeted)<br>
+`PT08.S5(O3)`: Indium oxide sensor response (nominally O₃ targeted)<br>
+`T`: Temperature in °C<br>
+`RH`: Relative Humidity (%)<br>
+`AH`: Absolute Humidity<br>
+`(Target) CO(GT)`: True hourly averaged concentration of CO in mg/m³<br>
+
+## 11. `Appliances Energy Prediction Dataset`
+- **Description:** The data set is at 10 min for about 4.5 months. The house temperature and humidity conditions were monitored with a ZigBee wireless sensor network. Each wireless node transmitted the temperature and humidity conditions around 3.3 min. Then, the wireless data was averaged for 10 minutes periods. The energy data was logged every 10 minutes with m-bus energy meters. Weather from the nearest airport weather station (Chievres Airport, Belgium) was downloaded from a public data set from Reliable Prognosis (rp5.ru), and merged together with the experimental data sets using the date and time column. Two random variables have been included in the data set for testing the regression models and to filter out non predictive attributes (parameters).
+- **Source:** <a href="https://archive.ics.uci.edu/dataset/374/appliances+energy+prediction">UCIMLR</a>
+- **File:** ![energydata_complete.csv](../../datasets/Industry/regression/Appliances_Energy_Prediction.csv)
+- **#Rows:** 19735  
+- **#Features:** 29  
+- **Target:** `Appliances (Regression)`  
+- **Views:** 70739
+- **Features:** <br>
+`date`: Time stamp for each observation<br>
+`lights`: Energy use of light fixtures (Wh)<br>
+`T1`: Temperature in kitchen area (°C)<br>
+`RH_1`: Humidity in kitchen area (%)<br>
+`T2`: Temperature in living room area (°C)<br>
+`RH_2`: Humidity in living room area (%)<br>
+`T3`: Temperature in laundry room area (°C)<br>
+`RH_3`: Humidity in laundry room area (%)<br>
+`T4`: Temperature in office room (°C)<br>
+`RH_4`: Humidity in office room (%)<br>
+`T5`: Temperature in bathroom (°C)<br>
+`RH_5`: Humidity in bathroom (%)<br>
+`T6`: Temperature in north-facing room (°C)<br>
+`RH_6`: Humidity in north-facing room (%)<br>
+`T7`: Temperature in ironing room (°C)<br>
+`RH_7`: Humidity in ironing room (%)<br>
+`T8`: Temperature in teenager room (°C)<br>
+`RH_8`: Humidity in teenager room (%)<br>
+`T9`: Temperature in parents’ room (°C)<br>
+`RH_9`: Humidity in parents’ room (%)<br>
+`T_out`: Outdoor temperature (°C)<br>
+`Press_mm_hg`: Outdoor pressure (mm Hg)<br>
+`RH_out`: Outdoor humidity (%)<br>
+`Windspeed`: Outdoor wind speed (m/s)<br>
+`Visibility`: Outdoor visibility (km)<br>
+`Tdewpoint`: Dew point temperature (°C)<br>
+`rv1`: Random variable 1 (no physical meaning)<br>
+`rv2`: Random variable 2 (no physical meaning)<br>
+`(Target) Appliances`: Energy use of appliances (Wh)<br>
+
+## 13. `Combined Cycle Power Plant Dataset`
+- **Description:** This dataset contains 6 years (2006–2011) of full-load operating data collected from a Combined Cycle Power Plant. The plant consists of gas turbines, steam turbines, and heat recovery steam generators. The features include ambient environmental variables such as temperature, pressure, humidity, and exhaust vacuum, which affect the plant’s net hourly electrical energy output. The goal is to predict the power output of the plant based on these parameters.
+- **Source:** <a href="https://archive.ics.uci.edu/dataset/294/combined+cycle+power+plant">UCI Machine Learning Repository</a>
+- **File:** ![CCPP.csv](../../datasets/Industry/classification/CCPP.csv)
+- **#Rows:** 9568  
+- **#Features:** 4  
+- **Target:** `PE (Classification)`  
+- **Views:** 49035 
+- **Features:** <br>
+`AT`: Ambient Temperature (°C)<br>
+`V`: Exhaust Vacuum (cm Hg)<br>
+`AP`: Ambient Pressure (millibar)<br>
+`RH`: Relative Humidity (%)<br>
+`(Target) PE`: Net hourly electrical energy output (MW)<br>
+
+## 14. `Electrical Grid Stability Simulated Data Dataset`
+- **Description:** This dataset contains simulated measurements of an electrical power grid system to study stability under various conditions. The data was generated using a simplified power grid model with controllable parameters such as voltage, current, and power balance across nodes. Each sample is labeled as either stable or unstable, depending on whether the grid remains within safe operational limits. The dataset is designed for research on grid stability prediction and control using machine learning.
+- **Source:** <a href="https://archive.ics.uci.edu/dataset/471/electrical+grid+stability+simulated+data">UCI Machine Learning Repository</a>
+- **File:** ![grid_stability.csv](../../datasets/Industry/classification/Electrical_Grid_Stability.csv)
+- **#Rows:** 10000  
+- **#Features:** 12  
+- **Target:** `stabf (Classification)`  
+- **Views:** 21715
+- **Features:** <br>
+`tau1`: Time constant of the first generator<br>
+`tauf`: Time constant of the second generator<br>
+`p1`: Power coefficient of the first generator<br>
+`p2`: Power coefficient of the second generator<br>
+`g1`: Gain of the first generator<br>
+`g2`: Gain of the second generator<br>
+`g3`: Gain of the third generator<br>
+`g4`: Gain of the fourth generator<br>
+`vg1`: Voltage of the first generator<br>
+`vg2`: Voltage of the second generator<br>
+`stab`: Continuous stability value (higher = more stable)<br>
+`(Target) stabf`: Categorical label for stability (stable / unstable)<br>
+
+## 15. `Power Consumption of Tetouan City Dataset`
+- **Description:** This dataset contains electrical power consumption data recorded from the city of Tetouan, Morocco. It includes meteorological variables such as temperature, humidity, wind speed, and general diffuse flow, alongside electricity consumption from three distinct zones in the city. The purpose of the dataset is to model and forecast power demand using environmental and temporal factors.
+- **Source:** <a href="https://archive.ics.uci.edu/dataset/849/power+consumption+of+tetouan+city">UCI Machine Learning Repository</a>
+- **File:** ![Tetouan_power_consumption.csv](../../datasets/Industry/regression/Tetouan_Power_Consumption.csv)
+- **#Rows:** 52417  
+- **#Features:** 9  
+- **Target:** `Zone 1`, `Zone 2`, `Zone 3 (Regression)`  
+- **Views:** 23083
+- **Features:** <br>
+`DateTime`: Date and time of the observation<br>
+`Temperature`: Air temperature (°C)<br>
+`Humidity`: Relative humidity (%)<br>
+`Wind Speed`: Wind speed (km/h)<br>
+`General diffuse flows`: Diffuse solar radiation (W/m²)<br>
+`Diffuse flows`: Direct solar radiation (W/m²)<br>
+`(Target) Zone 1`: Power consumption in zone 1 (kW)<br>
+`(Target) Zone 2`: Power consumption in zone 2 (kW)<br>
+`(Target) Zone 3`: Power consumption in zone 3 (kW)<br>
