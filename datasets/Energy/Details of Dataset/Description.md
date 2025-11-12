@@ -138,7 +138,7 @@ PE - net hourly electrical energy output
 ## 6. `Steel_industry_data`
 - **Description:** Steel Industry Energy Consumption - The data is collected from a smart small-scale steel industry in South Korea.
 - **Source:** <a href="">https://archive.ics.uci.edu/dataset/851/steel+industry+energy+consumption</a>
-- **Task:** Regression
+- **Task:** Classification
 - **#Rows:** 35040
 - **#Features:** 9
 - **Target:** `Load_Type`
