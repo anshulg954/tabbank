@@ -377,3 +377,28 @@ to overstrain<br>
 `(Target) Zone 1`: Power consumption in zone 1 (kW)<br>
 `(Target) Zone 2`: Power consumption in zone 2 (kW)<br>
 `(Target) Zone 3`: Power consumption in zone 3 (kW)<br>
+
+## 16. `Productivity Prediction of Garment Employees Dataset`
+- **Description:** This dataset was collected from a garment manufacturing company to analyze and predict the productivity of sewing employees in real-world production environments. It includes information on operational parameters such as working hours, team size, style, target productivity, and actual performance. The goal is to predict the productivity score of garment workers based on these factors, helping optimize labor efficiency in the apparel industry.
+- **Source:** <a href="https://archive.ics.uci.edu/dataset/597/productivity+prediction+of+garment+employees">UCIMLR</a>
+- **File:** ![garment_workers_productivity.csv](../../datasets/Industry/regression/Garment_Workers_Productivity.csv)
+- **#Rows:** 1197  
+- **#Features:** 14  
+- **Target:** `actual_productivity (Regressiob)`  
+- **Note** `Data collected from a Bangladeshi garment factory over several months; missing values and categorical encoding required before modeling`
+- **Features:** <br>
+`date`: Date of observation<br>
+`quarter`: Quarter of the day (1 = 8:00–10:00, 2 = 10:00–12:00, etc.)<br>
+`department`: Department type (e.g., sewing, finishing)<br>
+`day`: Day of the week<br>
+`team`: Team number<br>
+`targeted_productivity`: Management-set productivity target for the team<br>
+`smv`: Standard Minute Value (workload measure)<br>
+`wip`: Work in progress at the time of data recording<br>
+`over_time`: Overtime in minutes<br>
+`incentive`: Financial incentives provided<br>
+`idle_time`: Idle time in minutes<br>
+`idle_men`: Number of idle workers<br>
+`no_of_style_change`: Number of style changes during the shift<br>
+`no_of_workers`: Number of workers in the team<br>
+`actual_productivity`: Actual achieved productivity (0–1 scale)<br>
