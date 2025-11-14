@@ -1,5 +1,7 @@
 This file contains detailed description about each of the datasets to be considered for checking TabPFN performance.​
 
+The datasets have entries less than 50K.
+
 DISCLAIMER!!! --> The content is generated with the assistance of LLM.
 
 ---
@@ -8,7 +10,7 @@ DISCLAIMER!!! --> The content is generated with the assistance of LLM.
 ## 1. `Telecom churn dataset​`
 - **Description:** Predict behavior to retain customers. You can analyze all relevant customer data and develop focused customer retention programs.
 - **Source:** <a href="https://www.kaggle.com/datasets/mnassrib/telecom-churn-datasets">Kaggle</a>
-- **File:** ![telecom churn dataset.csv](.datasets/customer lifetime management/classification/telecom churn dataset.csv)​
+- **File:** ![telecom churn dataset.csv](.datasets/customer-lifetime-management/less-than-50K/classification/telecom churn dataset.csv)​
 - **#Rows:** ~2,600
 - **#Features:** 19
 - **Target:** `Churn​`
@@ -40,7 +42,7 @@ DISCLAIMER!!! --> The content is generated with the assistance of LLM.
 ## 2. `Telco-Customer-Churn`
 - **Description:** Predict behavior to retain customers. You can analyze all relevant customer data and develop focused customer retention programs.
 - **Source:** <a href="https://www.kaggle.com/datasets/blastchar/telco-customer-churn">Kaggle</a>
-- **File:** ![Telco-Customer-Churn.csv](.datasets/customer lifetime management/classification/Telco-Customer-Churn.csv)
+- **File:** ![Telco-Customer-Churn.csv](.datasets/customer-lifetime-management/less-than-50K/classification/Telco-Customer-Churn.csv)
 - **#Rows:** ~7,043
 - **#Features:** 21 (including target)
 - **Target:** `Churn`
@@ -73,7 +75,7 @@ DISCLAIMER!!! --> The content is generated with the assistance of LLM.
 ## 3. `Iranian telecom churn`
 - **Description:** Customer, usage, and service details for a telecom operator in Iran to predict churn propensity.
 - **Source:** <a href="https://archive.ics.uci.edu/dataset/563/iranian+churn+dataset">UCIICS</a>
-- **File:** ![Iranian telecom churn.csv](.datasets/customer lifetime management/classification/Iranian telecom churn.csv)
+- **File:** ![Iranian telecom churn.csv](.datasets/customer-lifetime-management/less-than-50K/classification/Iranian telecom churn.csv)
 - **#Rows:** ~3,100
 - **#Features:** 12 (including target)
 - **Target:** `Churn`
@@ -96,34 +98,10 @@ DISCLAIMER!!! --> The content is generated with the assistance of LLM.
 `Churn`: Target churn status.<br>
 
 
-## 4. `customer_churn_dataset`
-- **Description:** LCustomer churn refers to the phenomenon where customers discontinue their relationship or subscription with a company or service provider. In the context of the Churn dataset, the churn label indicates whether a customer has churned or not.
-- **Source:** <a href="https://www.kaggle.com/datasets/muhammadshahidazeem/customer-churn-dataset?select=customer_churn_dataset-training-master.csv">Kaggle</a>
-- **File:** ![customer_churn_dataset.csv](.datasets/customer lifetime management/classification/customer_churn_dataset.csv)
-- **#Rows:** ~505,000
-- **#Features:** ~11 (including target)
-- **Target:** `Churn`
-- **#Views:** Not specified
-- **Additional Description:** Ideal for stress‑testing algorithms at volume and for probability calibration.
-- **Features:** <br>
-`CustomerID`: Unique customer key.<br>
-`Gender`: Gender of the customer.<br>
-`Age`: Age of the Customer.<br>
-`Payment Delay`: Delays in Payment.<br>
-`Usage Frequency`: Frequency of usage.<br>
-`Support Calls`: Number of Support calls made.<br>
-`Tenure`: Duration with the company.<br>
-`Contract Length`: Contract type.<br>
-`Subscription Type`: Type of Subscription.<br>
-`Last Interaction`: NUmber of Last interactions with the customer.<br>
-`Total Spend`: Total amount spent.<br>
-`Churn`: Target churn status.<br>
-
-
-## 5. `IBM-Employee-Attrition`
+## 4. `IBM-Employee-Attrition`
 - **Description:** HR analytics dataset to predict whether an employee will exit using demographics, compensation, role, and engagement.
 - **Source:** <a href="https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset">Kaggle</a>
-- **File:** ![IBM-Employee-Attrition.csv](.datasets/customer lifetime management/classification/IBM-Employee-Attrition.csv)
+- **File:** ![IBM-Employee-Attrition.csv](.datasets/customer-lifetime-management/less-than-50K/classification/IBM-Employee-Attrition.csv)
 - **#Rows:** ~1,470
 - **#Features:** 35 (including target)
 - **Target:** `Attrition`
@@ -167,10 +145,10 @@ DISCLAIMER!!! --> The content is generated with the assistance of LLM.
 `Attrition`: Target label.<br>
 
 
-## 6. `gym_customer_churn`
+## 5. `gym_customer_churn`
 - **Description:** Gym membership data with activity, payments, and contract info to predict churn.
 - **Source:** <a href="https://www.kaggle.com/datasets/adrianvinueza/gym-customers-features-and-churn/data">Kaggle</a>
-- **File:** ![gym_customer_churn.csv](.datasets/customer lifetime management/classification/gym_customer_churn.csv)
+- **File:** ![gym_customer_churn.csv](.datasets/customer-lifetime-management/less-than-50K/classification/gym_customer_churn.csv)
 - **#Rows:** ~4,000
 - **#Features:** ~13 (including target)
 - **Target:** `Churn`
@@ -193,44 +171,10 @@ DISCLAIMER!!! --> The content is generated with the assistance of LLM.
 `Churn`: Target churn outcome.<br>
 
 
-## 7. `Lead Conversion Data`
-- **Description:** Loan application records with demographics, employment, income, loan specifics, and approval status to model conversion.
-- **Source:** <a href="https://www.kaggle.com/datasets/arashnic/banking-loan-prediction">Kaggle</a>
-- **File:** ![Lead Conversion Data.csv](.datasets/customer lifetime management/classification/Lead Conversion Data.csv)
-- **#Rows:** ~69,000
-- **#Features:** 23 (including target)
-- **Target:** `Approved`
-- **#Views:** Not specified
-- **Additional Description:** Requires date parsing, income sanitization, and handling of categorical bank/source codes.
-- **Features:** <br>
-`ID`: Application identifier.<br>
-`Gender`: Applicant gender.<br>
-`DOB`: Date of birth.<br>
-`Lead_Creation_Date`: Date the lead was created.<br>
-`City_Code`: Applicant city code.<br>
-`City_Category`: City segmentation category.<br>
-`Employer_Code`: Employer identifier.<br>
-`Employer_Category1`: Employer category group 1.<br>
-`Employer_Category2`: Employer category group 2.<br>
-`Monthly_Income`: Monthly income reported.<br>
-`Customer_Existing_Primary_Bank_Code`: Existing customer Primary bank code.<br>
-`Primary_Bank_Type`: Type/category of primary bank.<br>
-`Contacted`: Whether the lead was contacted.<br>
-`Source`: Acquisition source channel.<br>
-`Source_Category`: Category of source.<br>
-`Existing_EMI`: Existing EMI indicator/amount.<br>
-`Loan_Amount`: Requested loan amount.<br>
-`LoanP_eriod`: Requested tenure.<br>
-`Interest_Rate`: Interest rate quoted.<br>
-`EMI`: Calculated monthly installment.<br>
-`Var1`: Auxiliary risk/segment variable.<br>
-`Approved`: Target approval outcome.<br>
-
-
-## 8. `Ecommerce_Consumer_Behavior_Analysis_Data`
+## 6. `Ecommerce_Consumer_Behavior_Analysis_Data`
 - **Description:** Analyze consumer features to detect utilities such as which products to offer and to which customer category for improved targeting and retention.
 - **Source:** <a href="https://www.kaggle.com/datasets/salahuddinahmedshuvo/ecommerce-consumer-behavior-analysis-data">Kaggle</a>
-- **File:** ![Ecommerce_Consumer_Behavior_Analysis_Data.csv](.datasets/customer lifetime management/classification/Ecommerce_Consumer_Behavior_Analysis_Data.csv)
+- **File:** ![Ecommerce_Consumer_Behavior_Analysis_Data.csv](.datasets/customer-lifetime-management/less-than-50K/classification/Ecommerce_Consumer_Behavior_Analysis_Data.csv)
 - **#Rows:** 1000
 - **#Features:** 26
 - **Target:** Task‑dependent (e.g., CustomerSatisfaction or PurchaseIntent per analysis goal)
@@ -267,10 +211,10 @@ DISCLAIMER!!! --> The content is generated with the assistance of LLM.
 `Customer_Satisfaction`: Post‑purchase satisfaction score used as a potential target.<br>
 
 
-## 9. `Starbucks customer survey`
+## 7. `Starbucks customer survey`
 - **Description:** Predict behavior to retain customers using survey responses on visit frequency, preferences, spend, product choices, membership, perceived quality, price, promotions, ambiance, Wi‑Fi, service, meeting/hangout likelihood, promo channels, and continuation intent.
 - **Source:** <a href="https://www.kaggle.com/datasets/mahirahmzh/starbucks-customer-retention-malaysia-survey?select=Starbuckssatisfactorysurvey.csv">Kaggle</a>
-- **File:** ![Starbucks-customer-survey.csv](.datasets/customer lifetime management/classification/Starbucks-customer-survey.csv)
+- **File:** ![Starbucks-customer-survey.csv](.datasets/customer-lifetime-management/less-than-50K/classification/Starbucks-customer-survey.csv)
 - **#Rows:** 122
 - **#Features:** 20
 - **Target:** Task‑dependent (e.g., "Will you continue buying at Starbucks?" or satisfaction/loyalty proxy)
@@ -300,10 +244,10 @@ DISCLAIMER!!! --> The content is generated with the assistance of LLM.
 `20. Will you continue buying at Starbucks?`: Continuation/retention intention, usable as a classification target.<br>
 
 
-## 10. `The role of advertisement on the consumer behaviour`
+## 8. `The role of advertisement on the consumer behaviour`
 - **Description:** Understand the effect of advertisement on customer behaviour using a survey covering demographics, shopping habits, preferred ad types/channels, exposure frequency, search and recall behavior, and purchase influence.
 - **Source:** <a href="https://www.kaggle.com/datasets/abdelrahmanosheba/the-role-of-advertisement-on-the-consumer-behavior">Kaggle</a>
-- **File:** ![The-role-of-advertisement-on-the-consumer-behaviour.csv](.datasets/customer lifetime management/classification/The-role-of-advertisement-on-the-consumer-behaviour.csv)
+- **File:** ![The-role-of-advertisement-on-the-consumer-behaviour.csv](.datasets/customer-lifetime-management/less-than-50K/classification/The-role-of-advertisement-on-the-consumer-behaviour.csv)
 - **#Rows:** 64
 - **#Features:** 22
 - **Target:** Task‑dependent (e.g., "Did you buy due to an advertisement?" or "Did the advert change your buying behavior?")
@@ -335,10 +279,10 @@ DISCLAIMER!!! --> The content is generated with the assistance of LLM.
 `What do you think can make you buy from an advert ? [the company made it]`: Influence of brand/company behind the ad.<br>
 
 
-## 11. `travels-customer-churn-prediction`
+## 9. `travels-customer-churn-prediction`
 - **Description:** A travel company wants to predict if a customer will churn based on key indicators including frequent flyer status, income band, service bundle selection, social media sync, and hotel booking behavior.
 - **Source:** <a href="https://www.kaggle.com/datasets/tejashvi14/tour-travels-customer-churn-prediction-data">Kaggle</a>
-- **File:** ![travels-customer-churn-prediction.csv](.datasets/customer lifetime management/classification/travels-customer-churn-prediction.csv)
+- **File:** ![travels-customer-churn-prediction.csv](.datasets/customer-lifetime-management/less-than-50K/classification/travels-customer-churn-prediction.csv)
 - **#Rows:** 950
 - **#Features:** 6
 - **Target:** `Target`
@@ -354,10 +298,10 @@ DISCLAIMER!!! --> The content is generated with the assistance of LLM.
 `Target`<br>
 
 
-## 12. `synthetic_insurance_data`
+## 10. `synthetic_insurance_data`
 - **Description:** Synthetic personal auto insurance records with demographics, policy, discounts, claims, lead source, digital engagement, credit/regional adjustments, and conversion outcome for full‑funnel modeling.
 - **Source:** <a href="https://www.kaggle.com/datasets/samialyasin/insurance-data-personal-auto-line-of-business">Kaggle</a>
-- **File:** ![synthetic_insurance_data.csv](.datasets/customer lifetime management/classification/synthetic_insurance_data.csv)
+- **File:** ![synthetic_insurance_data.csv](.datasets/customer-lifetime-management/less-than-50K/classification/synthetic_insurance_data.csv)
 - **#Rows:** ~10,000
 - **#Features:** 27
 - **Target:** `Conversion_Status`
@@ -393,10 +337,10 @@ DISCLAIMER!!! --> The content is generated with the assistance of LLM.
 `Conversion_Status`: Target conversion status.<br>
 
 
-## 13. `insurance-customer-lifetime-value`
+## 11. `insurance-customer-lifetime-value`
 - **Description:** Using this data, insurers can identify high‑value customers, predict churn, and optimize retention strategies through actionable insights.
 - **Source:** <a href="https://gomask.ai/marketplace/datasets/insurance-customer-lifetime-value">GoMask marketplace</a>
-- **File:** ![insurance-customer-lifetime-value.csv](.datasets/customer lifetime management/classification/insurance-customer-lifetime-value.csv)
+- **File:** ![insurance-customer-lifetime-value.csv](.datasets/customer-lifetime-management/less-than-50K/classification/insurance-customer-lifetime-value.csv)
 - **#Rows:** 200
 - **#Features:** 15
 - **Target:** `ischurned`
@@ -429,10 +373,10 @@ DISCLAIMER!!! --> The content is generated with the assistance of LLM.
 `ischurned`: Churn status indicator.<br>
 
 
-## 14. `financial-customer-lifetime-value`
+## 12. `financial-customer-lifetime-value`
 - **Description:** Similar to insurance customer lifetime value but for financial services; supports identifying high‑value customers, predicting churn, and optimizing retention and cross‑sell strategies.
 - **Source:** <a href="https://gomask.ai/marketplace/datasets/financial-customer-lifetime-value">GoMask marketplace</a>
-- **File:** ![financial-customer-lifetime-value.csv](.datasets/customer lifetime management/classification/financial-customer-lifetime-value.csv)
+- **File:** ![financial-customer-lifetime-value.csv](.datasets/customer-lifetime-management/less-than-50K/classification/financial-customer-lifetime-value.csv)
 - **#Rows:** 200
 - **#Features:** 15
 - **Target:** `ischurned`
@@ -457,10 +401,10 @@ DISCLAIMER!!! --> The content is generated with the assistance of LLM.
 `ischurned`: Churn status indicator.<br>
 
 
-## 15. `Customer Personality Analysis`
+## 13. `Customer Personality Analysis`
 - **Description:** Household demographics, category spending, and campaign responses to segment and predict purchase behavior.
 - **Source:** <a href="https://www.kaggle.com/datasets/imakash3011/customer-personality-analysis">Kaggle</a>
-- **File:** ![customer personality analysis.csv](.datasets/customer lifetime management/classification/customer personality analysis.csv)
+- **File:** ![customer personality analysis.csv](.datasets/customer-lifetime-management/less-than-50K/classification/customer personality analysis.csv)
 - **#Rows:** ~2,000
 - **#Features:** 29 (including target)
 - **Target:** `Response`
@@ -498,10 +442,10 @@ DISCLAIMER!!! --> The content is generated with the assistance of LLM.
 `Response`: Target response to last campaign.<br>
 
 
-## 16. `R_acquisitionRetention`
+## 14. `R_acquisitionRetention`
 - **Description:** Acquisition–Retention data from Chapter 5 of Kumar and Petersen (2012), designed for modeling acquisition probability, retention duration, CLV, and marketing spend effects including squared terms for nonlinear response.
 - **Source:** <a href="https://cran.r-project.org/web/packages/SMCRM/SMCRM.pdf">CRAN: SMCRM package</a> (see page 2, “acquisitionRetention”)
-- **File:** ![R_acquisitionRetention.csv](.datasets/customer lifetime management/classification/R_acquisitionRetention.csv)
+- **File:** ![R_acquisitionRetention.csv](.datasets/customer-lifetime-management/less-than-50K/classification/R_acquisitionRetention.csv)
 - **#Rows:** 500 (book dataset spec)
 - **#Features:** 15
 - **Target:** acquisition
@@ -525,10 +469,10 @@ DISCLAIMER!!! --> The content is generated with the assistance of LLM.
 `employees`: number of employees in the prospect’s firm.<br>
 
 
-## 17. `R_customerAcquisition`
+## 15. `R_customerAcquisition`
 - **Description:** Customer Acquisition data from Chapter 3 capturing whether a prospect was acquired, early purchase value, predicted CLV, exposure window with right‑censoring, acquisition and retention marketing spend (with squared terms), firmographics, cross‑buy, and purchase frequency.
 - **Source:** <a href="https://cran.r-project.org/web/packages/SMCRM/SMCRM.pdf">CRAN: SMCRM package</a> (see page 3 “customerAcquisition”)
-- **File:** ![R_customerAcquisition.csv](.datasets/customer lifetime management/classification/R_customerAcquisition.csv)
+- **File:** ![R_customerAcquisition.csv](.datasets/customer-lifetime-management/less-than-50K/classification/R_customerAcquisition.csv)
 - **#Rows:** 500
 - **#Features:** 17
 - **Target:** `acquisition`
@@ -553,10 +497,10 @@ DISCLAIMER!!! --> The content is generated with the assistance of LLM.
 `frequency_sq`: the square of the number of times the customer purchased during the observation window.<br>
 
 
-## 18. `R_customerChurn`
+## 16. `R_customerChurn`
 - **Description:** Customer Churn data from Chapter 6 designed to model time‑to‑churn with right‑censoring, incorporating average monthly retention spend, lifetime purchase breadth and frequency, and firmographics.
 - **Source:** <a href="https://cran.r-project.org/web/packages/SMCRM/SMCRM.pdf">CRAN: SMCRM package</a> (see page 4 “customerChurn”)
-- **File:** ![R_customerChurn.csv](.datasets/customer lifetime management/classification/R_customerChurn.csv)
+- **File:** ![R_customerChurn.csv](.datasets/customer-lifetime-management/less-than-50K/classification/R_customerChurn.csv)
 - **#Rows:** 500
 - **#Features:** 11
 - **Target:** `censor`
@@ -576,10 +520,10 @@ DISCLAIMER!!! --> The content is generated with the assistance of LLM.
 `employees`: number of employees in the prospect’s firm.<br>
 
 
-## 19. `R_customerRetentionDemographics`
+## 17. `R_customerRetentionDemographics`
 - **Description:** Demographics data for customer retention from Chapter 4, capturing customer gender, marital status, income band, first purchase value, loyalty membership, share-of-wallet, and discounted CLV for segmentation and retention modeling.
 - **Source:** <a href="https://cran.r-project.org/web/packages/SMCRM/SMCRM.pdf">CRAN: SMCRM package</a> (see page 5 “customerRetentionDemographics”)
-- **File:** ![R_customerRetentionDemographics.csv](.datasets/customer lifetime management/classification/R_customerRetentionDemographics.csv)
+- **File:** ![R_customerRetentionDemographics.csv](.datasets/customer-lifetime-management/less-than-50K/classification/R_customerRetentionDemographics.csv)
 - **#Rows:** 500
 - **#Features:** 8
 - **Target:** `loyalty`
@@ -596,10 +540,10 @@ DISCLAIMER!!! --> The content is generated with the assistance of LLM.
 `clv`: discounted value of all expected future profits, or customer lifetime value.<br>
 
 
-## 20. `R_customerRetentionTransactions`
+## 18. `R_customerRetentionTransactions`
 - **Description:** Transactions data for customer retention from Chapter 4, providing a quarterly panel with purchases, order values, cross‑category breadth, and retention marketing spend to analyze purchase dynamics and retention effects over time.
 - **Source:** <a href="https://cran.r-project.org/web/packages/SMCRM/SMCRM.pdf">CRAN: SMCRM package</a> (see pages 5–6 "customerRetentionTransactions")
-- **File:** ![R_customerRetentionTransactions.csv](.datasets/customer lifetime management/classification/R_customerRetentionTransactions.csv)
+- **File:** ![R_customerRetentionTransactions.csv](.datasets/customer-lifetime-management/less-than-50K/classification/R_customerRetentionTransactions.csv)
 - **#Rows:** 500 customers × up to 12 quarters (panel)
 - **#Features:** 7
 - **Target:** `purchase`
@@ -615,10 +559,10 @@ DISCLAIMER!!! --> The content is generated with the assistance of LLM.
 `ret_expense_sq`: square of dollars spent on marketing efforts to try and retain that customer in the given quarter.<br>
 
 
-## 21. `R_customerWinBack`
+## 19. `R_customerWinBack`
 - **Description:** Customer win‑back data from Chapter 7 capturing reacquisition outcomes, first and second lifecycle durations and value, offer magnitude, lapse since loss, price change between lifecycles, and basic demographics to model win‑back propensity and post‑return value.
 - **Source:** <a href="https://cran.r-project.org/web/packages/SMCRM/SMCRM.pdf">CRAN: SMCRM package</a> (see page 7 "customerWinBack")
-- **File:** ![R_customerWinBack.csv](.datasets/customer lifetime management/classification/R_customerWinBack.csv)
+- **File:** ![R_customerWinBack.csv](.datasets/customer-lifetime-management/less-than-50K/classification/R_customerWinBack.csv)
 - **#Rows:** 500
 - **#Features:** 10
 - **Target:** `reacquire`
@@ -636,10 +580,10 @@ DISCLAIMER!!! --> The content is generated with the assistance of LLM.
 `gender`: 1 if male, 0 if female.<br>
 `age`: age in years of the customer at the time of the attempt to reacquire.<br>
 
-## 22. `BankChurners`
+## 20. `BankChurners`
 - **Description:** Credit card customers with demographics, product and account tenure, spend/transaction behavior, utilization, and attrition outcome for churn prediction.
 - **Source:** <a href="https://www.kaggle.com/datasets/sakshigoyal7/credit-card-customers">Kaggle</a>
-- **File:** ![BankChurners.csv](.datasets/customer lifetime management/classification/BankChurners.csv)
+- **File:** ![BankChurners.csv](.datasets/customer-lifetime-management/less-than-50K/classification/BankChurners.csv)
 - **#Rows:** ~10,000
 - **#Features:** 21 (plus target)
 - **Target:** `Attrition_Flag`
@@ -669,10 +613,10 @@ DISCLAIMER!!! --> The content is generated with the assistance of LLM.
 `Avg_Utilization_Ratio`: Average utilization ratio.<br>
 
 
-## 23. `Churn Modelling`
+## 21. `Churn Modelling`
 - **Description:** Retail bank customer dataset with demographics, geography, account metrics, and activity indicators to predict whether a customer exits the bank.
 - **Source:** <a href="https://www.kaggle.com/datasets/shrutimechlearn/churn-modelling">Kaggle</a>
-- **File:** ![Churn Modelling.csv](.datasets/customer lifetime management/classification/Churn Modelling.csv)
+- **File:** ![Churn Modelling.csv](.datasets/customer-lifetime-management/less-than-50K/classification/Churn Modelling.csv)
 - **#Rows:** 10,000
 - **#Features:** 14 (including target)
 - **Target:** `Exited`
@@ -695,45 +639,10 @@ DISCLAIMER!!! --> The content is generated with the assistance of LLM.
 `Exited`: Target exit flag.<br>
 
 
-## 24. `Airlines customer satisfaction`
-- **Description:** Airline passenger survey capturing demographics, trip context, service touchpoints, onboard experience, ground services, delays, and an overall satisfaction label for modeling drivers of satisfaction and NPS‑style outcomes.
-- **Source:** Refer to "details of datasets.csv" for canonical link, row/feature specs, and any benchmarking notes used across common datasets.
-- **File:** ![Airlines customer satisfaction.csv](.datasets/customer lifetime management/classification/Airlines customer satisfaction.csv)
-- **#Rows:** See "details of datasets.csv" for the standardized count used in your environment.
-- **#Features:** See "details of datasets.csv" for the standardized schema summary.
-- **Target:** `satisfaction`
-- **#Views:** Not specified
-- **Additional Description:** Suitable for feature importance and SHAP analysis across flight distance, delays, and service ratings; supports segmentation by class and customer type for retention and upsell strategies.
-- **Features:** <br>
-`Gender`: Passenger gender.<br>
-`Customer Type`: Customer category.<br>
-`Age`: Passenger age.<br>
-`Type of Travel`: Travel purpose.<br>
-`Class`: Cabin class.<br>
-`Flight Distance`: Distance flown.<br>
-`Inflight wifi service`: WiFi rating.<br>
-`Departure/Arrival time convenient`: Schedule convenience rating.<br>
-`Ease of Online booking`: Booking experience rating.<br>
-`Gate location`: Gate accessibility rating.<br>
-`Food and drink`: Catering quality rating.<br>
-`Online boarding`: Online boarding rating.<br>
-`Seat comfort`: Seat comfort rating.<br>
-`Inflight entertainment`: Entertainment rating.<br>
-`On-board service`: Onboard staff rating.<br>
-`Leg room service`: Legroom comfort rating.<br>
-`Baggage handling`: Baggage experience rating.<br>
-`Checkin service`: Check‑in rating.<br>
-`Inflight service`: Overall inflight service rating.<br>
-`Cleanliness`: Cabin cleanliness rating.<br>
-`Departure Delay in Minutes`: Departure delay duration.<br>
-`Arrival Delay in Minutes`: Arrival delay duration.<br>
-`satisfaction`: Target satisfaction indicator.<br>
-
-
-## 25. `Customer Acquisition data`
+## 22. `Customer Acquisition data`
 - **Description:** Takes into account both the revenue generated by each customer and the costs associated with acquiring and serving that customer to analyze acquisition efficiency.
 - **Source:** <a href="https://www.kaggle.com/datasets/amirmotefaker/customer-acquisition-data">Kaggle</a>
-- **File:** ![customer_acquisition_data.csv](.datasets/customer lifetime management/regression/customer_acquisition_data.csv)
+- **File:** ![customer_acquisition_data.csv](.datasets/customer-lifetime-management/less-than-50K/regression/customer_acquisition_data.csv)
 - **#Rows:** ~800 (reference spec); actual file shows hundreds of entries with consistent schema.
 - **#Features:** 5
 - **Target:** Task‑dependent (e.g., classify high‑ROI customers or predict revenue from channel/cost).
@@ -747,10 +656,10 @@ DISCLAIMER!!! --> The content is generated with the assistance of LLM.
 `revenue`: Revenue realized from the customer, used to compute ROI, LTV proxies, and profitability signals.<br>
 
 
-## 26. `analyzing customer spending habits`
+## 23. `analyzing customer spending habits`
 - **Description:** This Sales Data dataset offers a unique insight into the spending habits of customers from various countries across the globe. With detailed information on customer age, gender, product category, quantity, unit cost and price, as well as revenue generated through sales of products listed in this dataset, you can explore and discover patterns in consumer behavior.
 - **Source:** <a href="https://www.kaggle.com/datasets/thedevastator/analyzing-customer-spending-habits-to-improve-sa">Kaggle</a>
-- **File:** ![analyzing customer spending habits.csv](.datasets/customer lifetime management/regression/analyzing customer spending habits.csv)
+- **File:** ![analyzing customer spending habits.csv](.datasets/customer-lifetime-management/less-than-50K/regression/analyzing customer spending habits.csv)
 - **#Rows:** ~17400
 - **#Features:** 12 (excluding index)
 - **Target:** Revenue
