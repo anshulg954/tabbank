@@ -4,3 +4,5 @@ datasets/finance/*.csv filter=lfs diff=lfs merge=lfs -text
 datasets/healthcare/classification/20_covid.csv filter=lfs diff=lfs merge=lfs -text
 datasets/healthcare/classification/31_genomics_high_dimensional.csv filter=lfs diff=lfs merge=lfs -text
 datasets/finance/classification/amex_default_prediction_50k.csv filter=lfs diff=lfs merge=lfs -text
+datasets/healthcare/large/ filter=lfs diff=lfs merge=lfs -text
+datasets/finance/large/ filter=lfs diff=lfs merge=lfs -text
